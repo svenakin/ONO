@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is an attempt at expanding the CIDOC CRM ontology for use in Old Norse studies and/or material philology in general.
+Parts of this ontology have been taken from the CIDOCtex extension of CIDOC, which expands the CIDOC CRM by classes used for the description of 
+ancient textual entities. It is currently (as of January 08, 2020) being maintained by Francesca Murano and Achille Ferreti. The proposal is available at http://www.cidoc-crm.org/crmtex/sites/default/files/CRMtex_v0.8.pdf
+Classes labelled with the prefix MTX# and properties labeled with the prefix MTP# are my own work. Classes and properties labeled TEX# and TXP# are taken from CIDOCtex. 
+Classes and properties  labeled E# and P# respectively are taken from the original CIDOC standard. -->
+
+<rdf:RDF xml:lang="en" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.cidoc-crm.org/cidoc-crm/">
+
+<rdfs:Class rdf:about="MTX1_Text_Carrier">
+	<rdfs:label xml:lang="en">Text Carrier/Manuscript</rdfs:label>
+	<rdfs:subClassOf rdf:resource="E24_Physical_Man-Made_Thing"/>
+	<rdfs:comment></rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="MTX2_Textual_Entity">
+	<rdfs:label xml:lang="en">Textual Entity</rdfs:label>
+	<rdfs:subClassOf rdf:resource="E33_Linguistic_Object"/>
+	<rdfs:comment>This class denotes a textual entity within a given manuscript. It does NOT denote the abstract context of a given 
+	text but only refers to the words on the page of the manuscript in question.</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="MTX3_Word_On_Page">
+	<rdfs:label xml:lang="en">Word on the Page</rdfs:label>
+	<rdfs:subClassOf rdf:resource="E33_Linguistic_Object"/>
+	<rdfs:comment>This class denotes the words on a given physical page, making up a given textual entity.</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="MTX4_Textual_Family">
+	<rdfs:label xml:lang="en"></rdfs:label>
+	<rdfs:subClassOf rdf:resource="E73_Information_Object"/>
+	<rdfs:comment>Experimental!</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="TX2_Writing">
+	<rdfs:label xml:lang="en">Writing</rdfs:label>
+	<rdfs:subClassOf rdf:resource="E12 Production"/>
+	<rdfs:comment>Subclass of E12 Production indicating the activity of creating textual entities using
+various techniques (painting, sculpture, etc.) and by means of specific tools on a
+given physical carrier in a non-mechanical way. Description from CIDOCtex.</rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="TX3_Writing_System">
+	<rdfs:label xml:lang="en">Writing System</rdfs:label>
+	<rdfs:subClassOf rdf:resource="E29_Design_Or_Procedure"/>
+	<rdfs:comment></rdfs:comment>
+</rdfs:Class>
+
+<rdfs:Class rdf:about="">
+	<rdfs:label xml:lang="en"></rdfs:label>
+	<rdfs:subClassOf rdf:resource=""/>
+	<rdfs:comment></rdfs:comment>
+</rdfs:Class>
+
+<rdf:Property rdf:about="TXP1_Used_Writing_System">
+	<rdfs:label xml:lang="en">Used Writing System</rdfs:label>
+	<rdfs:comment></rdfs:comment>
+	<rdfs:domain rdf:resource="TX2_Writing"/>
+	<rdfs:range rdf:resource="TX3_Writing_System"/>
+	<rdfs:subPropertyOf rdf:resource=""/>	
+</rdf:Property>
+
+<rdf:Property rdf:about="TXP4_composes">
+	<rdfs:label xml:lang="en">Composes</rdfs:label>
+	<rdfs:comment>This property is intended to correlate a text and the different parts of which it can be
+composed, such as: letters, words, lines or any other scan can be made by scholars
+because considered to have a particular relevance for the investigation of the text itself</rdfs:comment>
+	<rdfs:domain rdf:resource="MTX3_Word_On_Page"/>
+	<rdfs:range rdf:resource="MTX2_Textual_Entity"/>
+	<rdfs:subPropertyOf rdf:resource=""/>	
+</rdf:Property>
+
+<rdf:Property rdf:about="MTP1_Also_Occurs_In">
+	<rdfs:label xml:lang="en">Coocurrence</rdfs:label>
+	<rdfs:comment> This property is used to link two words in different textual entities to one another.</rdfs:comment>
+	<rdfs:domain rdf:resource="MTX3_Word_On_Page"/>
+	<rdfs:range rdf:resource="MTX3_Word_On_Page"/>
+	<rdfs:subPropertyOf rdf:resource=""/>	
+</rdf:Property>
+
+<rdf:Property rdf:about="">
+	<rdfs:label xml:lang="en"></rdfs:label>
+	<rdfs:comment></rdfs:comment>
+	<rdfs:domain rdf:resource=""/>
+	<rdfs:range rdf:resource=""/>
+	<rdfs:subPropertyOf rdf:resource=""/>	
+</rdf:Property>
+
+</rdf:RDF>
