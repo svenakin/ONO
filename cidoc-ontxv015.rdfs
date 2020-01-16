@@ -49,11 +49,11 @@ Property P82 is for modeling the minimum outer bounds of events i.e. at_some_tim
 P81 has its time interval redefined by P81a and P81b. Similarly, we redefine P82 by P82a and P82b.
 
 -->
-<rdf:RDF xml:lang="en" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.cidoc-crm.org/cidoc-crm/">
+<rdf:RDF  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="http://www.cidoc-crm.org/cidoc-crm/">
 
 <rdfs:Class rdf:about="E1_CRM_Entity">
 	
-	<rdfs:label xml:lang="en">CRM Entity</rdfs:label>
+	<rdfs:label >CRM Entity</rdfs:label>
 	
 	
 	
@@ -70,7 +70,7 @@ With the exception of E59 Primitive Value, all other classes within the CRM are 
 
 <rdfs:Class rdf:about="E2_Temporal_Entity">
 	
-	<rdfs:label xml:lang="en">Temporal Entity</rdfs:label>
+	<rdfs:label >Temporal Entity</rdfs:label>
 	
 	
 	
@@ -84,7 +84,7 @@ With the exception of E59 Primitive Value, all other classes within the CRM are 
 
 <rdfs:Class rdf:about="E3_Condition_State">
 	
-	<rdfs:label xml:lang="en">Condition State</rdfs:label>
+	<rdfs:label >Condition State</rdfs:label>
 	
 	
 	
@@ -99,7 +99,7 @@ An instance of this class describes the prevailing physical condition of any mat
 
 <rdfs:Class rdf:about="E4_Period">
 	
-	<rdfs:label xml:lang="en">Period</rdfs:label>
+	<rdfs:label >Period</rdfs:label>
 	
 	
 	
@@ -131,7 +131,7 @@ Another specific case of an E4 Period is the set of activities and phenomena ass
 	
 	
 	
-	<rdfs:label xml:lang="en">Event</rdfs:label>
+	<rdfs:label >Event</rdfs:label>
 	
 	
 	
@@ -143,7 +143,7 @@ The distinction between an E5 Event and an E4 Period is partly a question of the
 
 <rdfs:Class rdf:about="E6_Destruction">
 	
-	<rdfs:label xml:lang="en">Destruction</rdfs:label>
+	<rdfs:label >Destruction</rdfs:label>
 	
 	
 	
@@ -160,7 +160,7 @@ The decision to document an object as destroyed, transformed or modified is cont
 </rdfs:Class>
 
 <rdfs:Class rdf:about="E7_Activity">
-	<rdfs:label xml:lang="en">Activity</rdfs:label>
+	<rdfs:label >Activity</rdfs:label>
 	
 	
 	
@@ -177,7 +177,7 @@ This notion includes complex, composite and long-lasting actions such as the bui
 	
 	
 	
-	<rdfs:label xml:lang="en">Acquisition</rdfs:label>
+	<rdfs:label >Acquisition</rdfs:label>
 	
 	
 	
@@ -194,7 +194,7 @@ It may also describe events where a collector appropriates legal title, for exam
 </rdfs:Class>
 
 <rdfs:Class rdf:about="E9_Move">
-	<rdfs:label xml:lang="en">Move</rdfs:label>
+	<rdfs:label >Move</rdfs:label>
 	
 	
 	
@@ -209,7 +209,7 @@ Note, that the class E9 Move inherits the property P7 took place at (witnessed):
 
 <rdfs:Class rdf:about="E10_Transfer_of_Custody">
 	
-	<rdfs:label xml:lang="en">Transfer of Custody</rdfs:label>
+	<rdfs:label >Transfer of Custody</rdfs:label>
 	
 	
 	
@@ -230,7 +230,7 @@ The interpretation of the museum notion of "accession" differs between instituti
 
 <rdfs:Class rdf:about="E11_Modification">
 	
-	<rdfs:label xml:lang="en">Modification</rdfs:label>
+	<rdfs:label >Modification</rdfs:label>
 	
 	
 	
@@ -249,7 +249,7 @@ If the instance of the E29 Design or Procedure utilized for the modification pre
 	
 	
 	
-	<rdfs:label xml:lang="en">Production</rdfs:label>
+	<rdfs:label >Production</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises activities that are designed to, and succeed in, creating one or more new items. 
@@ -265,7 +265,7 @@ An event should also be documented using E81 Transformation if it results in the
 	
 	
 	
-	<rdfs:label xml:lang="en">Attribute Assignment</rdfs:label>
+	<rdfs:label >Attribute Assignment</rdfs:label>
 	
 	
 	
@@ -281,7 +281,7 @@ In particular, the class describes the actions of people making propositions and
 	
 	
 	
-	<rdfs:label xml:lang="en">Condition Assessment</rdfs:label>
+	<rdfs:label >Condition Assessment</rdfs:label>
 	
 	
 	<rdfs:comment>This class describes the act of assessing the state of preservation of an object during a particular period. 
@@ -293,7 +293,7 @@ The condition assessment may be carried out by inspection, measurement or throug
 <rdfs:Class rdf:about="E15_Identifier_Assignment">
 
     
-    <rdfs:label xml:lang="en">Identifier Assignment</rdfs:label>
+    <rdfs:label >Identifier Assignment</rdfs:label>
    
     
 	
@@ -310,7 +310,7 @@ The fact that an identifier is a preferred one for an organisation can be expres
 	
 	
 	
-	<rdfs:label xml:lang="en">Measurement</rdfs:label>
+	<rdfs:label >Measurement</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises actions measuring physical properties and other values that can be determined by a systematic procedure. 
@@ -324,7 +324,7 @@ The E16 Measurement may use simple counting or tools, such as yardsticks or radi
 	
 	
 	
-	<rdfs:label xml:lang="en">Type Assignment</rdfs:label>
+	<rdfs:label >Type Assignment</rdfs:label>
 	
 	
 	
@@ -337,7 +337,7 @@ This class allows for the documentation of the context of classification acts in
 <rdfs:Class rdf:about="E18_Physical_Thing">
 	
 	
-	<rdfs:label xml:lang="en">Physical Thing</rdfs:label>
+	<rdfs:label >Physical Thing</rdfs:label>
 	
 	
 	
@@ -359,7 +359,7 @@ The CIDOC CRM is generally not concerned with amounts of matter in fluid or gase
 <rdfs:Class rdf:about="E19_Physical_Object">
 	
 	
-	<rdfs:label xml:lang="en">Physical Object</rdfs:label>
+	<rdfs:label >Physical Object</rdfs:label>
 	
 	
 	
@@ -374,7 +374,7 @@ The decision as to what is documented as a complete item, rather than by its par
 
 <rdfs:Class rdf:about="E20_Biological_Object">
 	
-	<rdfs:label xml:lang="en">Biological Object</rdfs:label>
+	<rdfs:label >Biological Object</rdfs:label>
 	
 	
 	
@@ -389,7 +389,7 @@ Artificial objects that incorporate biological elements, such as Victorian butte
 <rdfs:Class rdf:about="E21_Person">
 	
 	
-	<rdfs:label xml:lang="en">Person</rdfs:label>
+	<rdfs:label >Person</rdfs:label>
 	
 	
 	
@@ -406,7 +406,7 @@ Legendary figures that may have existed, such as Ulysses and King Arthur, fall i
 	
 	
 	
-	<rdfs:label xml:lang="en">Man-Made Object</rdfs:label>
+	<rdfs:label >Man-Made Object</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises physical objects purposely created by human activity.
@@ -418,7 +418,7 @@ No assumptions are made as to the extent of modification required to justify reg
 
 <rdfs:Class rdf:about="E24_Physical_Man-Made_Thing">
 	
-    <rdfs:label xml:lang="en">Physical Man-Made Thing</rdfs:label>
+    <rdfs:label >Physical Man-Made Thing</rdfs:label>
     
     
     
@@ -433,7 +433,7 @@ This class comprises man-made objects, such as a swords, and man-made features, 
 
 <rdfs:Class rdf:about="E25_Man-Made_Feature">
 	
-    <rdfs:label xml:lang="en">Man-Made Feature</rdfs:label>
+    <rdfs:label >Man-Made Feature</rdfs:label>
     
     
     
@@ -448,7 +448,7 @@ No assumptions are made as to the extent of modification required to justify reg
 
 <rdfs:Class rdf:about="E26_Physical_Feature">
 	
-    <rdfs:label xml:lang="en">Physical Feature</rdfs:label>
+    <rdfs:label >Physical Feature</rdfs:label>
     
 	
     
@@ -464,7 +464,7 @@ This definition coincides with the definition of "fiat objects" (Smith &amp; Var
 
 <rdfs:Class rdf:about="E27_Site">
 	
-    <rdfs:label xml:lang="en">Site</rdfs:label>
+    <rdfs:label >Site</rdfs:label>
     
     
     
@@ -480,7 +480,7 @@ In contrast to the purely geometric notion of E53 Place, this class describes co
 	
     
 	
-    <rdfs:label xml:lang="en">Conceptual Object</rdfs:label>
+    <rdfs:label >Conceptual Object</rdfs:label>
     
 	
 	
@@ -496,7 +496,7 @@ They cannot be destroyed. They exist as long as they can be found on at least on
 	
     
     
-    <rdfs:label xml:lang="en">Design or Procedure</rdfs:label>
+    <rdfs:label >Design or Procedure</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises documented plans for the execution of actions in order to achieve a result of a specific quality, form or contents. In particular it comprises plans for deliberate human activities that may result in the modification or production of instances of E24 Physical Thing. 
@@ -514,7 +514,7 @@ Because designs or procedures may never be applied or only partially executed, t
 	
     
     
-    <rdfs:label xml:lang="en">Right</rdfs:label>
+    <rdfs:label >Right</rdfs:label>
     
     
 	
@@ -525,7 +525,7 @@ These include reproduction and property rights</rdfs:comment>
 
 <rdfs:Class rdf:about="E31_Document">
 	
-    <rdfs:label xml:lang="en">Document</rdfs:label>
+    <rdfs:label >Document</rdfs:label>
     
     
     
@@ -542,7 +542,7 @@ These propositions may be expressed in text, graphics, images, audiograms, video
     
     
     
-    <rdfs:label xml:lang="en">Authority Document</rdfs:label>
+    <rdfs:label >Authority Document</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises encyclopaedia, thesauri, authority lists and other documents that define terminology or conceptual systems for consistent use.
@@ -552,7 +552,7 @@ These propositions may be expressed in text, graphics, images, audiograms, video
 
 <rdfs:Class rdf:about="E33_Linguistic_Object">
 	
-    <rdfs:label xml:lang="en">Linguistic Object</rdfs:label>
+    <rdfs:label >Linguistic Object</rdfs:label>
     
     
     
@@ -567,7 +567,7 @@ The text of an instance of E33 Linguistic Object can be documented in a note by 
 
 <rdfs:Class rdf:about="E34_Inscription">
 	
-    <rdfs:label xml:lang="en">Inscription</rdfs:label>
+    <rdfs:label >Inscription</rdfs:label>
     
     
     
@@ -585,7 +585,7 @@ The relationship of a physical copy of a book to the text it contains is modelle
 	
     
     
-    <rdfs:label xml:lang="en">Title</rdfs:label>
+    <rdfs:label >Title</rdfs:label>
     
 	
 	
@@ -601,7 +601,7 @@ This class also comprises the translations of titles that are used as surrogates
 	
     
     
-    <rdfs:label xml:lang="en">Visual Item</rdfs:label>
+    <rdfs:label >Visual Item</rdfs:label>
     
     
 	
@@ -616,7 +616,7 @@ The class E36 Visual Item provides a means of identifying and linking together i
 	
     
     
-    <rdfs:label xml:lang="en">Mark</rdfs:label>
+    <rdfs:label >Mark</rdfs:label>
     
 	
 	
@@ -631,7 +631,7 @@ This class specifically excludes features that have no semantic significance, su
   
     
    
-    <rdfs:label xml:lang="en">Image</rdfs:label>
+    <rdfs:label >Image</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises distributions of form, tone and colour that may be found on surfaces such as photos, paintings, prints and sculptures or directly on electronic media. 
@@ -645,7 +645,7 @@ The degree to which variations in the distribution of form and colour affect the
 
     
     
-    <rdfs:label xml:lang="en">Actor</rdfs:label>
+    <rdfs:label >Actor</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises people, either individually or in groups, who have the potential to perform intentional actions of kinds for which someone may be held responsible.
@@ -659,7 +659,7 @@ The CRM does not attempt to model the inadvertent actions of such actors. Indivi
     
      
     
-    <rdfs:label xml:lang="en">Legal Body</rdfs:label>
+    <rdfs:label >Legal Body</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises institutions or groups of people that have obtained a legal recognition as a group and can act collectively as agents.  
@@ -671,7 +671,7 @@ This means that they can perform actions, own property, create or destroy things
 <rdfs:Class rdf:about="E41_Appellation">
 
     
-    <rdfs:label xml:lang="en">Appellation</rdfs:label>
+    <rdfs:label >Appellation</rdfs:label>
     
      
 	 
@@ -688,7 +688,7 @@ E41 Appellation should not be confused with the act of naming something. Cf. E15
    
    
     
-    <rdfs:label xml:lang="en">Identifier</rdfs:label>
+    <rdfs:label >Identifier</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises strings or codes assigned to instances of E1 CRM Entity in order to identify them uniquely and permanently within the context of one or more organisations. Such codes are often known as inventory numbers, registration codes, etc. and are typically composed of alphanumeric sequences. The class E42 Identifier is not normally used for machine-generated identifiers used for automated processing unless these are also used by human agents.</rdfs:comment>
@@ -696,7 +696,7 @@ E41 Appellation should not be confused with the act of naming something. Cf. E15
 </rdfs:Class>
 <rdfs:Class rdf:about="E44_Place_Appellation">
 
-     <rdfs:label xml:lang="en">Place Appellation</rdfs:label>
+     <rdfs:label >Place Appellation</rdfs:label>
    
    
     
@@ -712,7 +712,7 @@ Instances of E44 Place Appellation may vary in their degree of precision and the
     
     
   
-    <rdfs:label xml:lang="en">Address</rdfs:label>
+    <rdfs:label >Address</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises identifiers expressed in coding systems for places, such as postal addresses used for mailing.
@@ -724,7 +724,7 @@ An E45 Address can be considered both as the name of an E53 Place and as an E51 
 <rdfs:Class rdf:about="E46_Section_Definition">
 
     
-  <rdfs:label xml:lang="en">Section Definition</rdfs:label>
+  <rdfs:label >Section Definition</rdfs:label>
     
   
   
@@ -739,7 +739,7 @@ The 'prow' of the boat, the 'frame' of the picture, the 'front' of the building 
   
   
     
-    <rdfs:label xml:lang="en">Spatial Coordinates</rdfs:label>
+    <rdfs:label >Spatial Coordinates</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises the textual or numeric information required to locate specific instances of E53 Place within schemes of spatial identification. 
@@ -752,7 +752,7 @@ Coordinates are a specific form of E44 Place Appellation, that is, a means of re
 
     
      
-    <rdfs:label xml:lang="en">Place Name</rdfs:label>
+    <rdfs:label >Place Name</rdfs:label>
     
 	
 	
@@ -764,7 +764,7 @@ Place Names may change their application over time: the name of an E53 Place may
 
     
     
-    <rdfs:label xml:lang="en">Time Appellation</rdfs:label>
+    <rdfs:label >Time Appellation</rdfs:label>
      
 	 
 	
@@ -777,7 +777,7 @@ The instances of E49 Time Appellation may vary in their degree of precision, and
     
     
     
-    <rdfs:label xml:lang="en">Date</rdfs:label>
+    <rdfs:label >Date</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises specific forms of E49 Time Appellation.</rdfs:comment>
@@ -787,7 +787,7 @@ The instances of E49 Time Appellation may vary in their degree of precision, and
 	
     
     
-    <rdfs:label xml:lang="en">Contact Point</rdfs:label>
+    <rdfs:label >Contact Point</rdfs:label>
     
 	
 	
@@ -801,7 +801,7 @@ URLs are addresses used by machines to access another machine through an http re
     
     
     
-    <rdfs:label xml:lang="en">Time-Span</rdfs:label>
+    <rdfs:label >Time-Span</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises abstract temporal extents, in the sense of Galilean physics, having a beginning, an end and a duration. 
@@ -813,7 +813,7 @@ Since our knowledge of history is imperfect, instances of E52 Time-Span can best
 </rdfs:Class>
 <rdfs:Class rdf:about="E53_Place">
 
- <rdfs:label xml:lang="en">Place</rdfs:label>
+ <rdfs:label >Place</rdfs:label>
     
     
     
@@ -826,7 +826,7 @@ Any object can serve as a frame of reference for E53 Place determination. The mo
 	<rdfs:subClassOf rdf:resource="E1_CRM_Entity"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="E54_Dimension">
-<rdfs:label xml:lang="en">Dimension</rdfs:label>
+<rdfs:label >Dimension</rdfs:label>
     
      
     
@@ -841,7 +841,7 @@ Numerical approximations in archaic instances of E58 Measurement Unit used in hi
 </rdfs:Class>
 <rdfs:Class rdf:about="E55_Type">
 
-    <rdfs:label xml:lang="en">Type</rdfs:label>
+    <rdfs:label >Type</rdfs:label>
     
     
     
@@ -855,7 +855,7 @@ E55 Type is the CRM’s interface to domain specific ontologies and thesauri. Th
 <rdfs:Class rdf:about="E56_Language">
 
     
-    <rdfs:label xml:lang="en">Language</rdfs:label>
+    <rdfs:label >Language</rdfs:label>
     
     
 	
@@ -870,7 +870,7 @@ It is recommended that internationally or nationally agreed codes and terminolog
 	
     
     
-    <rdfs:label xml:lang="en">Material</rdfs:label>
+    <rdfs:label >Material</rdfs:label>
     
 	
 	
@@ -882,7 +882,7 @@ It is recommended that internationally or nationally agreed codes and terminolog
 </rdfs:Class>
 <rdfs:Class rdf:about="E58_Measurement_Unit">
 	
-    <rdfs:label xml:lang="en">Measurement Unit</rdfs:label>
+    <rdfs:label >Measurement Unit</rdfs:label>
     
     
     
@@ -896,7 +896,7 @@ Syst?me International (SI) units or internationally recognized non-SI terms shou
 </rdfs:Class>
 <rdfs:Class rdf:about="E63_Beginning_of_Existence">
 	
-    <rdfs:label xml:lang="en">Beginning of Existence</rdfs:label>
+    <rdfs:label >Beginning of Existence</rdfs:label>
     
     
     
@@ -911,7 +911,7 @@ It may be used for temporal reasoning about things (intellectual products, physi
     
     
     
-    <rdfs:label xml:lang="en">End of Existence</rdfs:label>
+    <rdfs:label >End of Existence</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises events that end the existence of any E77 Persistent Item. 
@@ -924,7 +924,7 @@ It may be used for temporal reasoning about things (physical items, groups of pe
     
 	
     
-    <rdfs:label xml:lang="en">Creation</rdfs:label>
+    <rdfs:label >Creation</rdfs:label>
 	
 	
 	<rdfs:comment>This class comprises events that result in the creation of conceptual items or immaterial products, such as legends, poems, texts, music, images, movies, laws, types etc.
@@ -933,7 +933,7 @@ It may be used for temporal reasoning about things (physical items, groups of pe
 	<rdfs:subClassOf rdf:resource="E63_Beginning_of_Existence"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="E66_Formation">
-	<rdfs:label xml:lang="en">Formation</rdfs:label>
+	<rdfs:label >Formation</rdfs:label>
 	
     
 	
@@ -948,7 +948,7 @@ The formation of an instance of E74 Group does not require that the group is pop
 	<rdfs:subClassOf rdf:resource="E63_Beginning_of_Existence"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="E67_Birth">
-	<rdfs:label xml:lang="en">Birth</rdfs:label>
+	<rdfs:label >Birth</rdfs:label>
     
     
     
@@ -964,7 +964,7 @@ Twins, triplets etc. are brought into life by the same E67 Birth event. The intr
 	
     
     
-    <rdfs:label xml:lang="en">Dissolution</rdfs:label>
+    <rdfs:label >Dissolution</rdfs:label>
     
 	
 	
@@ -975,7 +975,7 @@ If the dissolution was deliberate, the Dissolution event should also be instanti
 </rdfs:Class>
 <rdfs:Class rdf:about="E69_Death">
 	
-    <rdfs:label xml:lang="en">Death</rdfs:label>
+    <rdfs:label >Death</rdfs:label>
     
     
     
@@ -990,7 +990,7 @@ If a person is killed, their death should be instantiated as E69 Death and as E7
 <rdfs:Class rdf:about="E70_Thing">
 <rdfs:label xml:lang="ru"/>    
    
-    <rdfs:label xml:lang="en">Thing</rdfs:label>
+    <rdfs:label >Thing</rdfs:label>
     
     
 	
@@ -1005,7 +1005,7 @@ They may be intellectual products or physical things. They may for instance have
 
   
    
-    <rdfs:label xml:lang="en">Man-Made Thing</rdfs:label>
+    <rdfs:label >Man-Made Thing</rdfs:label>
     
 	
 	
@@ -1018,7 +1018,7 @@ These items are either intellectual products or man-made physical things, and ar
 
   
     
-   <rdfs:label xml:lang="en">Legal Object</rdfs:label>
+   <rdfs:label >Legal Object</rdfs:label>
     
 	
 	
@@ -1029,7 +1029,7 @@ This is true for all E18 Physical Thing. In the case of instances of E28 Concept
 </rdfs:Class>
 <rdfs:Class rdf:about="E73_Information_Object">
 	
-    <rdfs:label xml:lang="en">Information Object</rdfs:label>
+    <rdfs:label >Information Object</rdfs:label>
     
     
     
@@ -1044,7 +1044,7 @@ Instances of E73 Information Object of a linguistic nature should be declared as
 </rdfs:Class>
 <rdfs:Class rdf:about="E74_Group">
 
-    <rdfs:label xml:lang="en">Group</rdfs:label>
+    <rdfs:label >Group</rdfs:label>
     
     
    
@@ -1059,7 +1059,7 @@ A gathering of people becomes an E74 Group when it exhibits organizational chara
 	
     
     
-    <rdfs:label xml:lang="en">Conceptual Object Appellation</rdfs:label>
+    <rdfs:label >Conceptual Object Appellation</rdfs:label>
     
 	
 	
@@ -1067,7 +1067,7 @@ A gathering of people becomes an E74 Group when it exhibits organizational chara
 	<rdfs:subClassOf rdf:resource="E41_Appellation"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="E77_Persistent_Item">
-	<rdfs:label xml:lang="en">Persistent Item</rdfs:label>
+	<rdfs:label >Persistent Item</rdfs:label>
     
     
     
@@ -1084,7 +1084,7 @@ The main classes of objects that fall outside the scope the E77 Persistent Item 
 	
     
     
-    <rdfs:label xml:lang="en">Collection</rdfs:label>
+    <rdfs:label >Collection</rdfs:label>
     
 	
 	
@@ -1096,7 +1096,7 @@ Collective objects in the general sense, like a tomb full of gifts, a folder wit
 </rdfs:Class>
 <rdfs:Class rdf:about="E79_Part_Addition">
 	
-    <rdfs:label xml:lang="en">Part Addition</rdfs:label>
+    <rdfs:label >Part Addition</rdfs:label>
     
     
     
@@ -1110,7 +1110,7 @@ Typical scenarios include the attachment of an accessory, the integration of a c
 <rdfs:Class rdf:about="E80_Part_Removal">
 	
 	
-    <rdfs:label xml:lang="en">Part Removal</rdfs:label>
+    <rdfs:label >Part Removal</rdfs:label>
     
     
 	
@@ -1122,7 +1122,7 @@ Typical scenarios include the detachment of an accessory, the removal of a compo
 </rdfs:Class>
 <rdfs:Class rdf:about="E81_Transformation">
 
-    <rdfs:label xml:lang="en">Transformation</rdfs:label>
+    <rdfs:label >Transformation</rdfs:label>
     
      
     
@@ -1135,7 +1135,7 @@ Although the old and the new instances of E77 Persistent Item are treated as dis
 	<rdfs:subClassOf rdf:resource="E64_End_of_Existence"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="E82_Actor_Appellation">
-	<rdfs:label xml:lang="en">Actor Appellation</rdfs:label>
+	<rdfs:label >Actor Appellation</rdfs:label>
 	
 	
     
@@ -1150,7 +1150,7 @@ An E39 Actor will typically have more than one E82 Actor Appellation, and instan
 <rdfs:Class rdf:about="E83_Type_Creation">
 
     
-    <rdfs:label xml:lang="en">Type Creation</rdfs:label>
+    <rdfs:label >Type Creation</rdfs:label>
     
     
 	
@@ -1162,7 +1162,7 @@ It is typically a rigorous scholarly or scientific process that ensures a type i
 </rdfs:Class>
 <rdfs:Class rdf:about="E84_Information_Carrier">
 
-   <rdfs:label xml:lang="en">Information Carrier</rdfs:label>
+   <rdfs:label >Information Carrier</rdfs:label>
    
     
     
@@ -1175,7 +1175,7 @@ An E84 Information Carrier may or may not contain information, e.g., a diskette.
 </rdfs:Class>
 <rdfs:Class rdf:about="E85_Joining">
 	
-	<rdfs:label xml:lang="en">Joining</rdfs:label>
+	<rdfs:label >Joining</rdfs:label>
 	
 	<rdfs:comment>This class comprises the activities that result in an instance of E39 Actor becoming a member of an instance of E74 Group. This class does not imply initiative by either party. It may be the initiative of a third party.
 Typical scenarios include becoming a member of a social organisation, becoming employee of a company, marriage, the adoption of a child by a family and the inauguration of somebody into an official position. 
@@ -1185,7 +1185,7 @@ Typical scenarios include becoming a member of a social organisation, becoming e
 
 <rdfs:Class rdf:about="E86_Leaving">
 	
-	<rdfs:label xml:lang="en">Leaving</rdfs:label>
+	<rdfs:label >Leaving</rdfs:label>
 	
 	<rdfs:comment>This class comprises the activities that result in an instance of E39 Actor to be disassociated from an instance of E74 Group. This class does not imply initiative by either party. It may be the initiative of a third party. 
 Typical scenarios include the termination of membership in a social organisation, ending the employment at a company, divorce, and the end of tenure of somebody in an official position.</rdfs:comment>
@@ -1193,7 +1193,7 @@ Typical scenarios include the termination of membership in a social organisation
 </rdfs:Class>
 <rdfs:Class rdf:about="E87_Curation_Activity">
 	
-	<rdfs:label xml:lang="en">Curation Activity</rdfs:label>
+	<rdfs:label >Curation Activity</rdfs:label>
 	
 	<rdfs:comment>This class comprises the activities that result in the continuity of management and the preservation and evolution of instances of E78 Collection, following an implicit or explicit curation plan. 
 It specializes the notion of activity into the curation of a collection and allows the history of curation to be recorded.
@@ -1204,7 +1204,7 @@ Items are accumulated and organized following criteria like subject, chronologic
 
 <rdfs:Class rdf:about="E89_Propositional_Object">
 	
-	<rdfs:label xml:lang="en">Propositional Object</rdfs:label>
+	<rdfs:label >Propositional Object</rdfs:label>
 	
 	<rdfs:comment>This class comprises immaterial items, including but not limited to stories, plots, procedural prescriptions, algorithms, laws of physics or images that are, or represent in some sense, sets of propositions about real or imaginary things and that are documented as single units or serve as topics of discourse. 
 	
@@ -1214,7 +1214,7 @@ This class also comprises items that are “about” something in the sense of a
 </rdfs:Class>
 <rdfs:Class rdf:about="E90_Symbolic_Object">
 	
-	<rdfs:label xml:lang="en">Symbolic Object</rdfs:label>
+	<rdfs:label >Symbolic Object</rdfs:label>
 	
 	<rdfs:comment>This class comprises identifiable symbols and any aggregation of symbols, such as characters, identifiers, traffic signs, emblems, texts, data sets, images, musical scores, multimedia objects, computer program code or mathematical formulae that have an objectively recognizable structure and that are documented as single units.
 	It includes sets of signs of any nature, which may serve to designate something, or to communicate some propositional content.
@@ -1227,7 +1227,7 @@ This class also comprises items that are “about” something in the sense of a
 
 
 <rdfs:Class rdf:about="E92_Spacetime_Volume">
-	<rdfs:label xml:lang="en">Spacetime Volume</rdfs:label>
+	<rdfs:label >Spacetime Volume</rdfs:label>
 	<rdfs:comment>This class comprises 4 dimensional point sets (volumes) in physical spacetime regardless its true geometric form. They may derive their identity from being the extent of a material phenomenon or from being the interpretation of an expression defining an extent in spacetime. 
 	Intersections of instances of E92 Spacetime Volume, Place and Timespan are also regarded as instances of E92 Spacetime Volume.  An instance of E92 Spacetime Volume is either contiguous or composed of a finite number of contiguous subsets. 
 	Its boundaries may be fuzzy due to the properties of the phenomena it derives from or due to the limited precision up to which defining expression can be identified with a real extent in spacetime. The duration of existence of an instance of a spacetime volume is trivially its projection on time.
@@ -1236,7 +1236,7 @@ This class also comprises items that are “about” something in the sense of a
 </rdfs:Class>
 
 <rdfs:Class rdf:about="E93_Presence">
-	<rdfs:label xml:lang="en">Presence</rdfs:label>
+	<rdfs:label >Presence</rdfs:label>
 	<rdfs:comment>This class comprises instances of E92 Spacetime Volume that result from intersection of instances of E92 Spacetime Volume with an instance of E52 Time-Span.  The identity of an instance of this class is determined by the identities of the  constituing spacetime volume and the time-span. 
 	
 This class can be used to define temporal snapshots at a particular time-span, such as the extent of the Roman Empire at 33 B.C., or the extent occupied by a museum object at rest in an exhibit. In particular, it can be used to define the spatial projection of a spacetime volume during a particular time-span,  such as the maximal spatial extent of a flood at some particular hour, or all areas covered by the Poland within the 20th century AD.
@@ -1245,32 +1245,32 @@ This class can be used to define temporal snapshots at a particular time-span, s
 </rdfs:Class>
 
 <rdfs:Class rdf:about="MTX1_Text_Carrier">
-	<rdfs:label xml:lang="en">Text Carrier/Manuscript</rdfs:label>
+	<rdfs:label >Text Carrier/Manuscript</rdfs:label>
 	<rdfs:subClassOf rdf:resource="E24_Physical_Man-Made_Thing"/>
 	<rdfs:comment></rdfs:comment>
 </rdfs:Class>
 
 <rdfs:Class rdf:about="MTX2_Textual_Entity">
-	<rdfs:label xml:lang="en">Textual Entity</rdfs:label>
+	<rdfs:label >Textual Entity</rdfs:label>
 	<rdfs:subClassOf rdf:resource="E33_Linguistic_Object"/>
 	<rdfs:comment>This class denotes a textual entity within a given manuscript. It does NOT denote the abstract context of a given 
 	text but only refers to the words on the page of the manuscript in question.</rdfs:comment>
 </rdfs:Class>
 
 <rdfs:Class rdf:about="MTX3_Word_On_Page">
-	<rdfs:label xml:lang="en">Word on the Page</rdfs:label>
+	<rdfs:label >Word on the Page</rdfs:label>
 	<rdfs:subClassOf rdf:resource="E33_Linguistic_Object"/>
 	<rdfs:comment>This class denotes the words on a given physical page, making up a given textual entity.</rdfs:comment>
 </rdfs:Class>
 
 <rdfs:Class rdf:about="MTX4_Textual_Family">
-	<rdfs:label xml:lang="en"></rdfs:label>
+	<rdfs:label ></rdfs:label>
 	<rdfs:subClassOf rdf:resource="E73_Information_Object"/>
 	<rdfs:comment>Experimental!</rdfs:comment>
 </rdfs:Class>
 
 <rdfs:Class rdf:about="TX2_Writing">
-	<rdfs:label xml:lang="en">Writing</rdfs:label>
+	<rdfs:label >Writing</rdfs:label>
 	<rdfs:subClassOf rdf:resource="E12 Production"/>
 	<rdfs:comment>Subclass of E12 Production indicating the activity of creating textual entities using
 various techniques (painting, sculpture, etc.) and by means of specific tools on a
@@ -1278,7 +1278,7 @@ given physical carrier in a non-mechanical way. Description from CIDOCtex.</rdfs
 </rdfs:Class>
 
 <rdfs:Class rdf:about="TX3_Writing_System">
-	<rdfs:label xml:lang="en">Writing System</rdfs:label>
+	<rdfs:label >Writing System</rdfs:label>
 	<rdfs:subClassOf rdf:resource="E29_Design_Or_Procedure"/>
 	<rdfs:comment></rdfs:comment>
 </rdfs:Class>
@@ -1286,7 +1286,7 @@ given physical carrier in a non-mechanical way. Description from CIDOCtex.</rdfs
 <rdf:Property rdf:about="P1_is_identified_by">
 	
     
-    <rdfs:label xml:lang="en">is identified by</rdfs:label>
+    <rdfs:label >is identified by</rdfs:label>
     
     
 	
@@ -1303,7 +1303,7 @@ This property is intended for identifiers in general use, which form part of the
 	
 	
     
-    <rdfs:label xml:lang="en">identifies</rdfs:label>
+    <rdfs:label >identifies</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E41_Appellation"/>
@@ -1312,7 +1312,7 @@ This property is intended for identifiers in general use, which form part of the
 
 <rdf:Property rdf:about="P2_has_type">
 	
-    <rdfs:label xml:lang="en">has type</rdfs:label>
+    <rdfs:label >has type</rdfs:label>
     
     
     
@@ -1330,7 +1330,7 @@ The CRM is intended to focus on the high-level entities and relationships needed
   
     
     
-    <rdfs:label xml:lang="en">is type of</rdfs:label>
+    <rdfs:label >is type of</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E55_Type"/>
@@ -1340,7 +1340,7 @@ The CRM is intended to focus on the high-level entities and relationships needed
 <rdf:Property rdf:about="P3_has_note">
 	
     
-    <rdfs:label xml:lang="en">has note</rdfs:label>
+    <rdfs:label >has note</rdfs:label>
     
     
 	
@@ -1356,7 +1356,7 @@ An item may have many notes, but a note is attached to a specific item.
 
 <rdf:Property rdf:about="P4_has_time-span">
 
-    <rdfs:label xml:lang="en">has time-span</rdfs:label>
+    <rdfs:label >has time-span</rdfs:label>
    
     
     
@@ -1370,7 +1370,7 @@ The related E52 Time-Span is understood as the real Time-Span during which the p
 </rdf:Property>
 
 <rdf:Property rdf:about="P4i_is_time-span_of">
-	<rdfs:label xml:lang="en">is time-span of</rdfs:label>
+	<rdfs:label >is time-span of</rdfs:label>
     
     
     
@@ -1383,7 +1383,7 @@ The related E52 Time-Span is understood as the real Time-Span during which the p
 </rdf:Property>
 
 <rdf:Property rdf:about="P5_consists_of">
-	<rdfs:label xml:lang="en">consists of</rdfs:label>
+	<rdfs:label >consists of</rdfs:label>
     
     
    
@@ -1400,7 +1400,7 @@ It is assumed that the sub-states into which the condition state is analysed for
 	
     
    
-    <rdfs:label xml:lang="en">forms part of</rdfs:label>
+    <rdfs:label >forms part of</rdfs:label>
     
 	
 	
@@ -1414,7 +1414,7 @@ It is assumed that the sub-states into which the condition state is analysed for
     
    
     
-    <rdfs:label xml:lang="en">took place at</rdfs:label>
+    <rdfs:label >took place at</rdfs:label>
 	
 	
 	<rdfs:comment>This property describes the spatial location of an instance of E4 Period. 
@@ -1429,7 +1429,7 @@ It is a shortcut of the more fully developed path from E4 Period through P161 ha
 
 <rdf:Property rdf:about="P7i_witnessed">
 	
-    <rdfs:label xml:lang="en">witnessed</rdfs:label>
+    <rdfs:label >witnessed</rdfs:label>
     
 	
     
@@ -1444,7 +1444,7 @@ It is a shortcut of the more fully developed path from E4 Period through P161 ha
 	
     
     
-    <rdfs:label xml:lang="en">took place on or within</rdfs:label>
+    <rdfs:label >took place on or within</rdfs:label>
     
 	
 	
@@ -1461,7 +1461,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 <rdf:Property rdf:about="P8i_witnessed">
 	
 	
-	<rdfs:label xml:lang="en">witnessed</rdfs:label>
+	<rdfs:label >witnessed</rdfs:label>
     
     
 	
@@ -1473,7 +1473,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 
 <rdf:Property rdf:about="P9_consists_of">
 	
-	<rdfs:label xml:lang="en">consists of</rdfs:label>
+	<rdfs:label >consists of</rdfs:label>
 	
 	
 	
@@ -1491,7 +1491,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
     
 	
 	
-	<rdfs:label xml:lang="en">forms part of</rdfs:label>
+	<rdfs:label >forms part of</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E4_Period"/>
@@ -1503,7 +1503,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 	
     
     
-	<rdfs:label xml:lang="en">falls within</rdfs:label>
+	<rdfs:label >falls within</rdfs:label>
     
     
 	
@@ -1516,7 +1516,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 <rdf:Property rdf:about="P10i_contains">
 	
     
-	<rdfs:label xml:lang="en">contains</rdfs:label>
+	<rdfs:label >contains</rdfs:label>
     
 	
 	
@@ -1530,7 +1530,7 @@ For example, the French and German armistice of 22 June 1940 was signed in the s
 	
 	
 	
-	<rdfs:label xml:lang="en">had participant</rdfs:label>
+	<rdfs:label >had participant</rdfs:label>
     
 	
 	
@@ -1546,7 +1546,7 @@ It connects the life-line of the related E39 Actor with the E53 Place and E50 Da
 	
     
     
-    <rdfs:label xml:lang="en">participated in</rdfs:label>
+    <rdfs:label >participated in</rdfs:label>
     
 	
 	
@@ -1557,7 +1557,7 @@ It connects the life-line of the related E39 Actor with the E53 Place and E50 Da
 </rdf:Property>
 
 <rdf:Property rdf:about="P12_occurred_in_the_presence_of">
-	<rdfs:label xml:lang="en">occurred in the presence of</rdfs:label>
+	<rdfs:label >occurred in the presence of</rdfs:label>
     
     
     
@@ -1572,7 +1572,7 @@ It connects the history of a thing with the E53 Place and E50 Date of an event. 
 </rdf:Property>
 
 <rdf:Property rdf:about="P12i_was_present_at">
-<rdfs:label xml:lang="en">was present at</rdfs:label>
+<rdfs:label >was present at</rdfs:label>
    
     
     
@@ -1589,7 +1589,7 @@ It connects the history of a thing with the E53 Place and E50 Date of an event. 
     
     
     
-    <rdfs:label xml:lang="en">destroyed</rdfs:label>
+    <rdfs:label >destroyed</rdfs:label>
 	
 	
 	<rdfs:comment>This property allows specific instances of E18 Physical Thing that have been destroyed to be related to a destruction event. 
@@ -1602,7 +1602,7 @@ Destruction implies the end of an item’s life as a subject of cultural documen
 
 <rdf:Property rdf:about="P13i_was_destroyed_by">
 	
-    <rdfs:label xml:lang="en">was destroyed by</rdfs:label>
+    <rdfs:label >was destroyed by</rdfs:label>
     
     
 	
@@ -1617,7 +1617,7 @@ Destruction implies the end of an item’s life as a subject of cultural documen
 <rdf:Property rdf:about="P14_carried_out_by">
 	
     
-    <rdfs:label xml:lang="en">carried out by</rdfs:label>
+    <rdfs:label >carried out by</rdfs:label>
     
     
 	
@@ -1634,7 +1634,7 @@ It implies causal or legal responsibility. The P14.1 in the role of property of 
 	
    
     
-	<rdfs:label xml:lang="en">performed</rdfs:label>
+	<rdfs:label >performed</rdfs:label>
     
 	
 	
@@ -1649,7 +1649,7 @@ It implies causal or legal responsibility. The P14.1 in the role of property of 
     
     
     
-    <rdfs:label xml:lang="en">was influenced by</rdfs:label>
+    <rdfs:label >was influenced by</rdfs:label>
 	
 	
 	<rdfs:comment>This is a high level property, which captures the relationship between an E7 Activity and anything that may have had some bearing upon it.
@@ -1664,7 +1664,7 @@ The property has more specific sub properties.
     
     
     
-    <rdfs:label xml:lang="en">influenced</rdfs:label>
+    <rdfs:label >influenced</rdfs:label>
     
 	
 
@@ -1675,7 +1675,7 @@ The property has more specific sub properties.
 <rdf:Property rdf:about="P16_used_specific_object">
 	
     
-    <rdfs:label xml:lang="en">used specific object</rdfs:label>
+    <rdfs:label >used specific object</rdfs:label>
 	
 	
 	
@@ -1694,7 +1694,7 @@ Another example is the use of a particular name by a particular group of people 
 	
     
     
-	<rdfs:label xml:lang="en">was used for</rdfs:label>
+	<rdfs:label >was used for</rdfs:label>
 	
 	
 	
@@ -1709,7 +1709,7 @@ Another example is the use of a particular name by a particular group of people 
 	
     
     
-    <rdfs:label xml:lang="en">was motivated by</rdfs:label>
+    <rdfs:label >was motivated by</rdfs:label>
 	
 	
 
@@ -1724,7 +1724,7 @@ For example, the discovery of a large hoard of treasure may call for a celebrati
 
 <rdf:Property rdf:about="P17i_motivated">
 	
-   <rdfs:label xml:lang="en">motivated</rdfs:label>
+   <rdfs:label >motivated</rdfs:label>
     
     
     
@@ -1741,7 +1741,7 @@ For example, the discovery of a large hoard of treasure may call for a celebrati
     
     
     
-    <rdfs:label xml:lang="en">was intended use of</rdfs:label> 
+    <rdfs:label >was intended use of</rdfs:label> 
 	
 	
 	<rdfs:comment>This property relates an E7 Activity with objects created specifically for use in the activity. 
@@ -1755,7 +1755,7 @@ This is distinct from the intended use of an item in some general type of activi
     
 	
 	
-    <rdfs:label xml:lang="en">was made for</rdfs:label>
+    <rdfs:label >was made for</rdfs:label>
 	
 	
 
@@ -1767,7 +1767,7 @@ This is distinct from the intended use of an item in some general type of activi
 	
     
     
-    <rdfs:label xml:lang="en">had specific purpose</rdfs:label>
+    <rdfs:label >had specific purpose</rdfs:label>
     
 	
 	
@@ -1783,7 +1783,7 @@ P20 had specific purpose (was purpose of) implies that an activity succeeded in 
 	
 	
 	
-	<rdfs:label xml:lang="en">was purpose of</rdfs:label>
+	<rdfs:label >was purpose of</rdfs:label>
 	
 	
 
@@ -1796,7 +1796,7 @@ P20 had specific purpose (was purpose of) implies that an activity succeeded in 
     
     
 	
-	<rdfs:label xml:lang="en">had general purpose</rdfs:label>
+	<rdfs:label >had general purpose</rdfs:label>
 	
 	
 	<rdfs:comment>This property describes an intentional relationship between an E7 Activity and some general goal or purpose. 
@@ -1811,7 +1811,7 @@ This may involve activities intended as preparation for some type of activity or
 	
     
     
-	<rdfs:label xml:lang="en">was purpose of</rdfs:label>
+	<rdfs:label >was purpose of</rdfs:label>
 	
 	
 
@@ -1823,7 +1823,7 @@ This may involve activities intended as preparation for some type of activity or
 	
    
    
-    <rdfs:label xml:lang="en">transferred title to</rdfs:label>
+    <rdfs:label >transferred title to</rdfs:label>
     
 	
 	
@@ -1839,7 +1839,7 @@ In reality the title is either transferred to or from someone, or both.
 
 <rdf:Property rdf:about="P22i_acquired_title_through">
 	
-    <rdfs:label xml:lang="en">acquired title through</rdfs:label>
+    <rdfs:label >acquired title through</rdfs:label>
     
     
     
@@ -1857,7 +1857,7 @@ In reality the title is either transferred to or from someone, or both.
    
     
     
-    <rdfs:label xml:lang="en">transferred title from</rdfs:label>
+    <rdfs:label >transferred title from</rdfs:label>
 	
 	
 
@@ -1874,7 +1874,7 @@ The property will typically be used to describe a person donating or selling an 
 	
     
     
-    <rdfs:label xml:lang="en">surrendered title through</rdfs:label>
+    <rdfs:label >surrendered title through</rdfs:label>
     
 	
 	
@@ -1889,7 +1889,7 @@ The property will typically be used to describe a person donating or selling an 
     
     
     
-    <rdfs:label xml:lang="en">transferred title of</rdfs:label>
+    <rdfs:label >transferred title of</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the E18 Physical Thing or things involved in an E8 Acquisition. 
@@ -1902,7 +1902,7 @@ In reality, an acquisition must refer to at least one transferred item.
 
 <rdf:Property rdf:about="P24i_changed_ownership_through">
 	
-    <rdfs:label xml:lang="en">changed ownership through</rdfs:label>
+    <rdfs:label >changed ownership through</rdfs:label>
     
     
     
@@ -1914,7 +1914,7 @@ In reality, an acquisition must refer to at least one transferred item.
 </rdf:Property>
 
 <rdf:Property rdf:about="P25_moved">
-	<rdfs:label xml:lang="en">moved</rdfs:label>
+	<rdfs:label >moved</rdfs:label>
     
 	
 	
@@ -1932,7 +1932,7 @@ The property implies the object's passive participation. For example, Monet's pa
 
 <rdf:Property rdf:about="P25i_moved_by">
 	
-    <rdfs:label xml:lang="en">moved by</rdfs:label>
+    <rdfs:label >moved by</rdfs:label>
     
     
 	
@@ -1947,7 +1947,7 @@ The property implies the object's passive participation. For example, Monet's pa
 
 <rdf:Property rdf:about="P26_moved_to">
 	
-    <rdfs:label xml:lang="en">moved to</rdfs:label>
+    <rdfs:label >moved to</rdfs:label>
     
     
     
@@ -1964,7 +1964,7 @@ Therefore the described destination is an instance of E53 Place which P89 falls 
 
 
 <rdf:Property rdf:about="P26i_was_destination_of">
-	<rdfs:label xml:lang="en">was destination of</rdfs:label>
+	<rdfs:label >was destination of</rdfs:label>
     
     
     
@@ -1979,7 +1979,7 @@ Therefore the described destination is an instance of E53 Place which P89 falls 
 
 <rdf:Property rdf:about="P27_moved_from">
 	
-	<rdfs:label xml:lang="en">moved from</rdfs:label>
+	<rdfs:label >moved from</rdfs:label>
     
 	
     
@@ -1995,7 +1995,7 @@ Therefore the described origin is an instance of E53 Place which P89 falls withi
 </rdf:Property>
 
 <rdf:Property rdf:about="P27i_was_origin_of">
-	<rdfs:label xml:lang="en">was origin of</rdfs:label>
+	<rdfs:label >was origin of</rdfs:label>
     
     
 	
@@ -2012,7 +2012,7 @@ Therefore the described origin is an instance of E53 Place which P89 falls withi
 <rdf:Property rdf:about="P28_custody_surrendered_by">
 	
    
-   <rdfs:label xml:lang="en">custody surrendered by</rdfs:label>
+   <rdfs:label >custody surrendered by</rdfs:label>
     
     
 	
@@ -2028,7 +2028,7 @@ In reality, custody is either transferred to someone or from someone, or both.
 </rdf:Property>
 
 <rdf:Property rdf:about="P28i_surrendered_custody_through">
-	<rdfs:label xml:lang="en">surrendered custody through</rdfs:label>
+	<rdfs:label >surrendered custody through</rdfs:label>
 	
 	
 	
@@ -2044,7 +2044,7 @@ In reality, custody is either transferred to someone or from someone, or both.
 <rdf:Property rdf:about="P29_custody_received_by">
 
     
-    <rdfs:label xml:lang="en">custody received by</rdfs:label>
+    <rdfs:label >custody received by</rdfs:label>
     
     
 	
@@ -2061,7 +2061,7 @@ In reality, custody is either transferred to someone or from someone, or both.
 
 <rdf:Property rdf:about="P29i_received_custody_through">
 	
-    <rdfs:label xml:lang="en">received custody through</rdfs:label>
+    <rdfs:label >received custody through</rdfs:label>
 	
 	
     
@@ -2076,7 +2076,7 @@ In reality, custody is either transferred to someone or from someone, or both.
 
 <rdf:Property rdf:about="P30_transferred_custody_of">
 	
-    <rdfs:label xml:lang="en">transferred custody of</rdfs:label>
+    <rdfs:label >transferred custody of</rdfs:label>
     
     
      
@@ -2091,7 +2091,7 @@ The property will typically describe the object that is handed over by an E39 Ac
 </rdf:Property>
 
 <rdf:Property rdf:about="P30i_custody_transferred_through">
-	<rdfs:label xml:lang="en">custody transferred through</rdfs:label>
+	<rdfs:label >custody transferred through</rdfs:label>
     
     
    
@@ -2106,7 +2106,7 @@ The property will typically describe the object that is handed over by an E39 Ac
 <rdf:Property rdf:about="P31_has_modified">
 	
     
-    <rdfs:label xml:lang="en">has modified</rdfs:label>
+    <rdfs:label >has modified</rdfs:label>
     
 	
 	
@@ -2126,7 +2126,7 @@ If a modification is applied to a non-man-made object, it is regarded as an E22 
     
     
     
-     <rdfs:label xml:lang="en">was modified by</rdfs:label>
+     <rdfs:label >was modified by</rdfs:label>
 	 
 	
 
@@ -2141,7 +2141,7 @@ If a modification is applied to a non-man-made object, it is regarded as an E22 
    
    
     
-    <rdfs:label xml:lang="en">used general technique</rdfs:label>
+    <rdfs:label >used general technique</rdfs:label>
 	
 	
 
@@ -2158,7 +2158,7 @@ These techniques should be drawn from an external E55 Type hierarchy of consiste
 	
     
     
-    <rdfs:label xml:lang="en">was technique of</rdfs:label>
+    <rdfs:label >was technique of</rdfs:label>
     
 	
 	
@@ -2171,7 +2171,7 @@ These techniques should be drawn from an external E55 Type hierarchy of consiste
 
 <rdf:Property rdf:about="P33_used_specific_technique">
 	
-    <rdfs:label xml:lang="en">used specific technique</rdfs:label>
+    <rdfs:label >used specific technique</rdfs:label>
     
     
     
@@ -2189,7 +2189,7 @@ Typical examples would include intervention plans for conservation or the constr
 
 
 <rdf:Property rdf:about="P33i_was_used_by">
-	<rdfs:label xml:lang="en">was used by</rdfs:label>
+	<rdfs:label >was used by</rdfs:label>
     
     
 	
@@ -2207,7 +2207,7 @@ Typical examples would include intervention plans for conservation or the constr
 	
     
     
-    <rdfs:label xml:lang="en">concerned</rdfs:label>
+    <rdfs:label >concerned</rdfs:label>
     
     
 	
@@ -2224,7 +2224,7 @@ Conditions may be assessed either by direct observation or using recorded eviden
 	
     
     
-    <rdfs:label xml:lang="en">was assessed by</rdfs:label>
+    <rdfs:label >was assessed by</rdfs:label>
 	
 	
 	
@@ -2240,7 +2240,7 @@ Conditions may be assessed either by direct observation or using recorded eviden
     
     
     
-    <rdfs:label xml:lang="en">has identified</rdfs:label>
+    <rdfs:label >has identified</rdfs:label>
     
 	
 	<rdfs:comment>This property identifies the E3 Condition State that was observed in an E14 Condition Assessment activity.</rdfs:comment>
@@ -2255,7 +2255,7 @@ Conditions may be assessed either by direct observation or using recorded eviden
     
     
 	
-   <rdfs:label xml:lang="en">was identified by</rdfs:label>
+   <rdfs:label >was identified by</rdfs:label>
    
 	
 
@@ -2268,7 +2268,7 @@ Conditions may be assessed either by direct observation or using recorded eviden
 <rdf:Property rdf:about="P37_assigned">
 	
     
-    <rdfs:label xml:lang="en">assigned</rdfs:label>
+    <rdfs:label >assigned</rdfs:label>
 	
     
 	
@@ -2286,7 +2286,7 @@ An Identifier might be created prior to an assignment.
 <rdf:Property rdf:about="P37i_was_assigned_by">
 	
     
-    <rdfs:label xml:lang="en">was assigned by</rdfs:label>
+    <rdfs:label >was assigned by</rdfs:label>
     
 	
 	
@@ -2301,7 +2301,7 @@ An Identifier might be created prior to an assignment.
 <rdf:Property rdf:about="P38_deassigned">
 	
 	
-	<rdfs:label xml:lang="en">deassigned</rdfs:label>
+	<rdfs:label >deassigned</rdfs:label>
     
     
 	
@@ -2321,7 +2321,7 @@ The same identifier may be deassigned on more than one occasion.
     
     
 	
-	<rdfs:label xml:lang="en">was deassigned by</rdfs:label>
+	<rdfs:label >was deassigned by</rdfs:label>
 	
 	
 
@@ -2335,7 +2335,7 @@ The same identifier may be deassigned on more than one occasion.
 	
     
    
-   <rdfs:label xml:lang="en">measured</rdfs:label>
+   <rdfs:label >measured</rdfs:label>
     
 	
 	
@@ -2351,7 +2351,7 @@ The same identifier may be deassigned on more than one occasion.
 <rdf:Property rdf:about="P39i_was_measured_by">
 	
 	
-    <rdfs:label xml:lang="en">was measured by</rdfs:label>
+    <rdfs:label >was measured by</rdfs:label>
     
 	
 	
@@ -2364,7 +2364,7 @@ The same identifier may be deassigned on more than one occasion.
 
 
 <rdf:Property rdf:about="P40_observed_dimension">
-	<rdfs:label xml:lang="en">observed dimension</rdfs:label>
+	<rdfs:label >observed dimension</rdfs:label>
     
     
     
@@ -2385,7 +2385,7 @@ Even though knowledge of the value of a dimension requires measurement, the dime
 <rdf:Property rdf:about="P40i_was_observed_in">
 	
 	
-	<rdfs:label xml:lang="en">was observed in</rdfs:label>
+	<rdfs:label >was observed in</rdfs:label>
     
     
 	
@@ -2399,7 +2399,7 @@ Even though knowledge of the value of a dimension requires measurement, the dime
 
 <rdf:Property rdf:about="P41_classified">
 	
-   <rdfs:label xml:lang="en">classified</rdfs:label>
+   <rdfs:label >classified</rdfs:label>
     
     
     
@@ -2416,7 +2416,7 @@ Any instance of a CRM entity may be assigned a type through type assignment. Typ
 
 <rdf:Property rdf:about="P41i_was_classified_by">
 	
-    <rdfs:label xml:lang="en">was classified by</rdfs:label>
+    <rdfs:label >was classified by</rdfs:label>
     
     
     
@@ -2431,7 +2431,7 @@ Any instance of a CRM entity may be assigned a type through type assignment. Typ
 
 <rdf:Property rdf:about="P42_assigned">
 	
-    <rdfs:label xml:lang="en">assigned</rdfs:label>
+    <rdfs:label >assigned</rdfs:label>
    
     
     
@@ -2452,7 +2452,7 @@ A Type may be intellectually constructed independent from assigning an instance 
 <rdf:Property rdf:about="P42i_was_assigned_by">
 	
     
-    <rdfs:label xml:lang="en">was assigned by</rdfs:label>
+    <rdfs:label >was assigned by</rdfs:label>
 	
 	
 	
@@ -2468,7 +2468,7 @@ A Type may be intellectually constructed independent from assigning an instance 
 	
     
     
-    <rdfs:label xml:lang="en">has dimension</rdfs:label>
+    <rdfs:label >has dimension</rdfs:label>
     
 	
 	
@@ -2483,7 +2483,7 @@ An instance of E54 Dimension is specific to an instance of E70 Thing.
 
 <rdf:Property rdf:about="P43i_is_dimension_of">
 	
-    <rdfs:label xml:lang="en">is dimension of</rdfs:label>
+    <rdfs:label >is dimension of</rdfs:label>
     
     
     
@@ -2499,7 +2499,7 @@ An instance of E54 Dimension is specific to an instance of E70 Thing.
 	
 	
 	
-    <rdfs:label xml:lang="en">has condition</rdfs:label>
+    <rdfs:label >has condition</rdfs:label>
     
 	
 	
@@ -2518,7 +2518,7 @@ An instance of Condition State is specific to an instance of Physical Thing.
     
 	
     
-	<rdfs:label xml:lang="en">is condition of</rdfs:label>
+	<rdfs:label >is condition of</rdfs:label>
 	
 	
 
@@ -2531,7 +2531,7 @@ An instance of Condition State is specific to an instance of Physical Thing.
 	
     
     
-    <rdfs:label xml:lang="en">consists of</rdfs:label>
+    <rdfs:label >consists of</rdfs:label>
     
 	
 	
@@ -2547,7 +2547,7 @@ A Material, such as a theoretical alloy, may not have any physical instances</rd
 <rdf:Property rdf:about="P45i_is_incorporated_in">
 	
     
-    <rdfs:label xml:lang="en">is incorporated in</rdfs:label>
+    <rdfs:label >is incorporated in</rdfs:label>
     
     
 	
@@ -2559,7 +2559,7 @@ A Material, such as a theoretical alloy, may not have any physical instances</rd
 
 
 <rdf:Property rdf:about="P46_is_composed_of">
-	<rdfs:label xml:lang="en">is composed of</rdfs:label>
+	<rdfs:label >is composed of</rdfs:label>
     
     
     
@@ -2585,7 +2585,7 @@ The instances of E57 Material of which an item of E18 Physical Thing is composed
     
    
     
-    <rdfs:label xml:lang="en">forms part of</rdfs:label>
+    <rdfs:label >forms part of</rdfs:label>
 	
 	
 
@@ -2595,7 +2595,7 @@ The instances of E57 Material of which an item of E18 Physical Thing is composed
 
 
 <rdf:Property rdf:about="P48_has_preferred_identifier">
-	<rdfs:label xml:lang="en">has preferred identifier</rdfs:label>
+	<rdfs:label >has preferred identifier</rdfs:label>
    
    
     
@@ -2615,7 +2615,7 @@ P48 has preferred identifier (is preferred identifier of), is a shortcut for the
 
 
 <rdf:Property rdf:about="P48i_is_preferred_identifier_of">
-	<rdfs:label xml:lang="en">is preferred identifier of</rdfs:label>
+	<rdfs:label >is preferred identifier of</rdfs:label>
     
     
     
@@ -2634,7 +2634,7 @@ P48 has preferred identifier (is preferred identifier of), is a shortcut for the
     
 	
 	
-    <rdfs:label xml:lang="en">has former or current keeper</rdfs:label>
+    <rdfs:label >has former or current keeper</rdfs:label>
 	
 	
 	<rdfs:comment>
@@ -2660,7 +2660,7 @@ received by (received custody through) to E39 Actor.
 
 
 <rdf:Property rdf:about="P49i_is_former_or_current_keeper_of">
-	<rdfs:label xml:lang="en">is former or current keeper of</rdfs:label>
+	<rdfs:label >is former or current keeper of</rdfs:label>
     
     
 	
@@ -2675,7 +2675,7 @@ received by (received custody through) to E39 Actor.
 
 <rdf:Property rdf:about="P50_has_current_keeper">
 	
-    <rdfs:label xml:lang="en">has current keeper</rdfs:label>
+    <rdfs:label >has current keeper</rdfs:label>
 	
     
     
@@ -2693,7 +2693,7 @@ received by (received custody through) to E39 Actor.
 
 <rdf:Property rdf:about="P50i_is_current_keeper_of">
 	
-    <rdfs:label xml:lang="en">is current keeper of</rdfs:label>
+    <rdfs:label >is current keeper of</rdfs:label>
     
 	
 	
@@ -2711,7 +2711,7 @@ received by (received custody through) to E39 Actor.
     
     
     
-    <rdfs:label xml:lang="en">has former or current owner</rdfs:label>
+    <rdfs:label >has former or current owner</rdfs:label>
 	
 	
 
@@ -2727,7 +2727,7 @@ The distinction with P52 has current owner (is current owner of) is that P51 has
 	
    
     
-    <rdfs:label xml:lang="en">is former or current owner of</rdfs:label>
+    <rdfs:label >is former or current owner of</rdfs:label>
     
 	
 	
@@ -2738,7 +2738,7 @@ The distinction with P52 has current owner (is current owner of) is that P51 has
 
 
 <rdf:Property rdf:about="P52_has_current_owner">
-	<rdfs:label xml:lang="en">has current owner</rdfs:label>
+	<rdfs:label >has current owner</rdfs:label>
     
     
     
@@ -2759,7 +2759,7 @@ P52 has current owner (is current owner of) is a shortcut for the more detailed 
 <rdf:Property rdf:about="P52i_is_current_owner_of">
 	
    
-    <rdfs:label xml:lang="en">is current owner of</rdfs:label>
+    <rdfs:label >is current owner of</rdfs:label>
     
 	
 	
@@ -2776,7 +2776,7 @@ P52 has current owner (is current owner of) is a shortcut for the more detailed 
 	
     
     
-    <rdfs:label xml:lang="en">has former or current location</rdfs:label>
+    <rdfs:label >has former or current location</rdfs:label>
 	
 	
 	
@@ -2792,7 +2792,7 @@ P53 has former or current location (is former or current location of) is a short
 
 <rdf:Property rdf:about="P53i_is_former_or_current_location_of">
 	
-    <rdfs:label xml:lang="en">is former or current location of</rdfs:label>
+    <rdfs:label >is former or current location of</rdfs:label>
 	
 	
 	
@@ -2807,7 +2807,7 @@ P53 has former or current location (is former or current location of) is a short
 <rdf:Property rdf:about="P54_has_current_permanent_location">
 	
     
-	<rdfs:label xml:lang="en">has current permanent location</rdfs:label>
+	<rdfs:label >has current permanent location</rdfs:label>
     
     
 	
@@ -2825,7 +2825,7 @@ P54 has current permanent location (is current permanent location of) is similar
 	
 	
     
-	<rdfs:label xml:lang="en">is current permanent location of</rdfs:label>
+	<rdfs:label >is current permanent location of</rdfs:label>
     
 	
 	
@@ -2837,7 +2837,7 @@ P54 has current permanent location (is current permanent location of) is similar
 
 <rdf:Property rdf:about="P55_has_current_location">
 	
-    <rdfs:label xml:lang="en">has current location</rdfs:label>
+    <rdfs:label >has current location</rdfs:label>
     
     
     
@@ -2859,7 +2859,7 @@ P55 has current location (currently holds) is a shortcut. A more detailed repres
 	
     
     
-    <rdfs:label xml:lang="en">currently holds</rdfs:label>
+    <rdfs:label >currently holds</rdfs:label>
 	
 	
 
@@ -2874,7 +2874,7 @@ P55 has current location (currently holds) is a shortcut. A more detailed repres
 	
     
     
-    <rdfs:label xml:lang="en">bears feature</rdfs:label>
+    <rdfs:label >bears feature</rdfs:label>
 	
 	
 	<rdfs:comment>This property links an instance of E19 Physical Object to an instance of E26 Physical Feature that it bears.
@@ -2893,7 +2893,7 @@ Definition of the CIDOC Conceptual Reference Model 149 within), E53 Place, P53 h
 	
     
     
-	<rdfs:label xml:lang="en">is found on</rdfs:label>
+	<rdfs:label >is found on</rdfs:label>
 	
 	
 	
@@ -2905,7 +2905,7 @@ Definition of the CIDOC Conceptual Reference Model 149 within), E53 Place, P53 h
 
 
 <rdf:Property rdf:about="P57_has_number_of_parts">
-	<rdfs:label xml:lang="en">has number of parts</rdfs:label>
+	<rdfs:label >has number of parts</rdfs:label>
     
     
     
@@ -2923,7 +2923,7 @@ For a more complete description, objects may be decomposed into their components
 
 
 <rdf:Property rdf:about="P58_has_section_definition">
-	<rdfs:label xml:lang="en">has section definition</rdfs:label>
+	<rdfs:label >has section definition</rdfs:label>
    
     
    
@@ -2942,7 +2942,7 @@ A particular instance of a Section Definition only applies to one instance of Ph
 
 <rdf:Property rdf:about="P58i_defines_section">
 	
-	<rdfs:label xml:lang="en">defines section</rdfs:label>
+	<rdfs:label >defines section</rdfs:label>
 	
     
     
@@ -2955,7 +2955,7 @@ A particular instance of a Section Definition only applies to one instance of Ph
 
 
 <rdf:Property rdf:about="P59_has_section">
-	<rdfs:label xml:lang="en">has section</rdfs:label>
+	<rdfs:label >has section</rdfs:label>
     
     
     
@@ -2977,7 +2977,7 @@ P59 has section (is located on or within) is a shortcut. If the E53 Place is ide
 	
     
     
-    <rdfs:label xml:lang="en">is located on or within</rdfs:label>
+    <rdfs:label >is located on or within</rdfs:label>
 	
 	
 
@@ -2989,7 +2989,7 @@ P59 has section (is located on or within) is a shortcut. If the E53 Place is ide
 <rdf:Property rdf:about="P62_depicts">
 	
     
-	<rdfs:label xml:lang="en">depicts</rdfs:label>
+	<rdfs:label >depicts</rdfs:label>
     
     
 	
@@ -3006,7 +3006,7 @@ This property is a shortcut of the more fully developed path from E24 Physical M
 <rdf:Property rdf:about="P62i_is_depicted_by">
 	
 	
-	<rdfs:label xml:lang="en">is depicted by</rdfs:label>
+	<rdfs:label >is depicted by</rdfs:label>
     
     
 	
@@ -3019,7 +3019,7 @@ This property is a shortcut of the more fully developed path from E24 Physical M
 
 <rdf:Property rdf:about="P65_shows_visual_item">
 	
-    <rdfs:label xml:lang="en">shows visual item</rdfs:label>
+    <rdfs:label >shows visual item</rdfs:label>
     
     
     
@@ -3041,7 +3041,7 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 <rdf:Property rdf:about="P65i_is_shown_by">
 	
     
-	<rdfs:label xml:lang="en">is shown by</rdfs:label>
+	<rdfs:label >is shown by</rdfs:label>
 	
     
 	
@@ -3055,7 +3055,7 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 
 <rdf:Property rdf:about="P67_refers_to">
 	
-    <rdfs:label xml:lang="en">refers to</rdfs:label>
+    <rdfs:label >refers to</rdfs:label>
     
 	
     
@@ -3073,7 +3073,7 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 	
 	
 	
-    <rdfs:label xml:lang="en">is referred to by</rdfs:label>
+    <rdfs:label >is referred to by</rdfs:label>
     
 	
 	
@@ -3083,7 +3083,7 @@ This property is part of the fully developed path from E24 Physical Man-Made Thi
 
 
 <rdf:Property rdf:about="P68_foresees_use_of">
-	<rdfs:label xml:lang="en">foresees use of</rdfs:label>
+	<rdfs:label >foresees use of</rdfs:label>
     
     
     
@@ -3106,7 +3106,7 @@ This property is not intended for the documentation of E57 Materials that were u
 	
     
     
-	<rdfs:label xml:lang="en">use foreseen by</rdfs:label>
+	<rdfs:label >use foreseen by</rdfs:label>
 	
 	
 
@@ -3121,7 +3121,7 @@ This property is not intended for the documentation of E57 Materials that were u
     
 	
 	
-	<rdfs:label xml:lang="en">is associated with</rdfs:label>
+	<rdfs:label >is associated with</rdfs:label>
 	
 
 	
@@ -3138,7 +3138,7 @@ The property can typically be used to model the decomposition of the description
 	
     
     
-	<rdfs:label xml:lang="en">documents</rdfs:label>
+	<rdfs:label >documents</rdfs:label>
     
 	
 	
@@ -3153,7 +3153,7 @@ Documents may describe any conceivable entity, hence the link to the highest-lev
 
 
 <rdf:Property rdf:about="P70i_is_documented_in">
-	<rdfs:label xml:lang="en">is documented in</rdfs:label>
+	<rdfs:label >is documented in</rdfs:label>
 	
 	
     
@@ -3170,7 +3170,7 @@ Documents may describe any conceivable entity, hence the link to the highest-lev
 <rdf:Property rdf:about="P71_lists">
 	
     
-    <rdfs:label xml:lang="en">lists</rdfs:label>
+    <rdfs:label >lists</rdfs:label>
     
     
 	
@@ -3187,7 +3187,7 @@ Documents may describe any conceivable entity, hence the link to the highest-lev
 <rdf:Property rdf:about="P71i_is_listed_in">
 	
 	
-	<rdfs:label xml:lang="en">is listed in</rdfs:label>
+	<rdfs:label >is listed in</rdfs:label>
 	
     
 	
@@ -3202,7 +3202,7 @@ Documents may describe any conceivable entity, hence the link to the highest-lev
 <rdf:Property rdf:about="P72_has_language">
 	
    
-	<rdfs:label xml:lang="en">has language</rdfs:label>
+	<rdfs:label >has language</rdfs:label>
 	
 	
 	
@@ -3221,7 +3221,7 @@ Linguistic Objects are composed in one or more human Languages. This property al
 	
 	
     
-    <rdfs:label xml:lang="en">is language of</rdfs:label>
+    <rdfs:label >is language of</rdfs:label>
 	
 	
 
@@ -3234,7 +3234,7 @@ Linguistic Objects are composed in one or more human Languages. This property al
 	
 	
     
-	<rdfs:label xml:lang="en">has translation</rdfs:label>
+	<rdfs:label >has translation</rdfs:label>
 	
 	
 	
@@ -3252,7 +3252,7 @@ When a Linguistic Object is translated into a new language it becomes a new Ling
     
 	
 	
-	<rdfs:label xml:lang="en">is translation of</rdfs:label>
+	<rdfs:label >is translation of</rdfs:label>
 	
 	
 
@@ -3263,7 +3263,7 @@ When a Linguistic Object is translated into a new language it becomes a new Ling
 
 <rdf:Property rdf:about="P74_has_current_or_former_residence">
 	
-    <rdfs:label xml:lang="en">has current or former residence</rdfs:label>
+    <rdfs:label >has current or former residence</rdfs:label>
    
    
    
@@ -3282,7 +3282,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
     
     
     
-    <rdfs:label xml:lang="en">is current or former residence of</rdfs:label>
+    <rdfs:label >is current or former residence of</rdfs:label>
 	
 	
 
@@ -3295,7 +3295,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 	
 	
     
-    <rdfs:label xml:lang="en">possesses</rdfs:label>
+    <rdfs:label >possesses</rdfs:label>
 	
 	
 
@@ -3309,7 +3309,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
     
     
     
-    <rdfs:label xml:lang="en">is possessed by</rdfs:label>
+    <rdfs:label >is possessed by</rdfs:label>
 	
 	
 
@@ -3318,7 +3318,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 </rdf:Property>
 
 <rdf:Property rdf:about="P76_has_contact_point">
- <rdfs:label xml:lang="en">has contact point</rdfs:label>
+ <rdfs:label >has contact point</rdfs:label>
     
     
     
@@ -3334,7 +3334,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 <rdf:Property rdf:about="P76i_provides_access_to">
 	
     
-	<rdfs:label xml:lang="en">provides access to</rdfs:label>
+	<rdfs:label >provides access to</rdfs:label>
 	
     
 	
@@ -3347,7 +3347,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 <rdf:Property rdf:about="P78_is_identified_by">
 	
 	
-    <rdfs:label xml:lang="en">is identified by</rdfs:label>
+    <rdfs:label >is identified by</rdfs:label>
     
     
 	
@@ -3360,7 +3360,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 </rdf:Property>
 
 <rdf:Property rdf:about="P78i_identifies">
-	<rdfs:label xml:lang="en">identifies</rdfs:label>
+	<rdfs:label >identifies</rdfs:label>
 	
 	
     
@@ -3377,7 +3377,7 @@ The residence may be either the Place where the Actor resides, or a legally regi
 	
    
     
-	<rdfs:label xml:lang="en">beginning is qualified by</rdfs:label>
+	<rdfs:label >beginning is qualified by</rdfs:label>
     
 	
 	
@@ -3395,7 +3395,7 @@ The nature of the qualification may be certainty, precision, source etc.
     
     
     
-	<rdfs:label xml:lang="en">end is qualified by</rdfs:label>
+	<rdfs:label >end is qualified by</rdfs:label>
 	
 	
 
@@ -3408,7 +3408,7 @@ The nature of the qualification may be certainty, precision, source etc.
 </rdf:Property>
 
 <rdf:Property rdf:about="P81_ongoing_throughout">
-	<rdfs:label xml:lang="en">ongoing throughout</rdfs:label>
+	<rdfs:label >ongoing throughout</rdfs:label>
     
     
     
@@ -3428,7 +3428,7 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
   
    
     
-    <rdfs:label xml:lang="en">at some time within</rdfs:label>
+    <rdfs:label >at some time within</rdfs:label>
 	
 	
 
@@ -3443,7 +3443,7 @@ Since Time-Spans may not have precisely known temporal extents, the CRM supports
 	
     
     
-	<rdfs:label xml:lang="en">had at least duration</rdfs:label>
+	<rdfs:label >had at least duration</rdfs:label>
 	
 	
 	
@@ -3459,7 +3459,7 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 	
     
     
-    <rdfs:label xml:lang="en">was minimum duration of</rdfs:label>
+    <rdfs:label >was minimum duration of</rdfs:label>
     
 	
 
@@ -3469,7 +3469,7 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 
 <rdf:Property rdf:about="P84_had_at_most_duration">
  
-  <rdfs:label xml:lang="en">had at most duration</rdfs:label>
+  <rdfs:label >had at most duration</rdfs:label>
     
     
     
@@ -3486,7 +3486,7 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 <rdf:Property rdf:about="P84i_was_maximum_duration_of">
 	
    
-    <rdfs:label xml:lang="en">was maximum duration of</rdfs:label>
+    <rdfs:label >was maximum duration of</rdfs:label>
     
     
 	
@@ -3497,7 +3497,7 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
 </rdf:Property>
 
 <rdf:Property rdf:about="P86_falls_within">
-<rdfs:label xml:lang="en">falls within</rdfs:label>
+<rdfs:label >falls within</rdfs:label>
   
     
     
@@ -3514,7 +3514,7 @@ This property supports the notion that a Time-Span’s temporal extent falls wit
 <rdf:Property rdf:about="P86i_contains">
 	
     
-    <rdfs:label xml:lang="en">contains</rdfs:label>
+    <rdfs:label >contains</rdfs:label>
 	
 	
 	
@@ -3526,7 +3526,7 @@ This property supports the notion that a Time-Span’s temporal extent falls wit
 
 <rdf:Property rdf:about="P87_is_identified_by">
 	
-	<rdfs:label xml:lang="en">is identified by</rdfs:label>
+	<rdfs:label >is identified by</rdfs:label>
 	
     
 	
@@ -3546,7 +3546,7 @@ Examples of Place Appellations used to identify Places include instances of E48 
     
 	
     
-    <rdfs:label xml:lang="en">identifies</rdfs:label>
+    <rdfs:label >identifies</rdfs:label>
 	
 	
 	
@@ -3557,7 +3557,7 @@ Examples of Place Appellations used to identify Places include instances of E48 
 
 <rdf:Property rdf:about="P89_falls_within">
 	
-    <rdfs:label xml:lang="en">falls within</rdfs:label>
+    <rdfs:label >falls within</rdfs:label>
     
 	
 	
@@ -3576,7 +3576,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
     
 	
     
-    <rdfs:label xml:lang="en">contains</rdfs:label>
+    <rdfs:label >contains</rdfs:label>
 	
 	
 
@@ -3589,7 +3589,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
 	
 	
     
-    <rdfs:label xml:lang="en">has value</rdfs:label>
+    <rdfs:label >has value</rdfs:label>
 	
 	
 
@@ -3604,7 +3604,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
     
     
     
-    <rdfs:label xml:lang="en">has unit</rdfs:label>
+    <rdfs:label >has unit</rdfs:label>
 	
 	
 
@@ -3618,7 +3618,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
     
     
 	
-    <rdfs:label xml:lang="en">is unit of</rdfs:label>
+    <rdfs:label >is unit of</rdfs:label>
 	
 	
 	
@@ -3628,7 +3628,7 @@ It addresses spatial containment only, and does not imply any relationship betwe
 
 <rdf:Property rdf:about="P92_brought_into_existence">
 	
-    <rdfs:label xml:lang="en">brought into existence</rdfs:label>
+    <rdfs:label >brought into existence</rdfs:label>
 	
     
     
@@ -3643,7 +3643,7 @@ It allows a “start” to be attached to any Persistent Item being documented i
 </rdf:Property>
 
 <rdf:Property rdf:about="P92i_was_brought_into_existence_by">
-	<rdfs:label xml:lang="en">was brought into existence by</rdfs:label>
+	<rdfs:label >was brought into existence by</rdfs:label>
     
     
     
@@ -3660,7 +3660,7 @@ It allows a “start” to be attached to any Persistent Item being documented i
 	
     
     
-	<rdfs:label xml:lang="en">took out of existence</rdfs:label>
+	<rdfs:label >took out of existence</rdfs:label>
 	
 	
 	
@@ -3677,7 +3677,7 @@ This allows an “end” to be attached to any Persistent Item being documented 
 <rdf:Property rdf:about="P93i_was_taken_out_of_existence_by">
 	
 	
-	<rdfs:label xml:lang="en">was taken out of existence by</rdfs:label>
+	<rdfs:label >was taken out of existence by</rdfs:label>
 	
     
 	
@@ -3691,7 +3691,7 @@ This allows an “end” to be attached to any Persistent Item being documented 
 <rdf:Property rdf:about="P94_has_created">
 	
 	
-    <rdfs:label xml:lang="en">has created</rdfs:label>
+    <rdfs:label >has created</rdfs:label>
     
     
 	
@@ -3709,7 +3709,7 @@ It represents the act of conceiving the intellectual content of the E28 Conceptu
 	
    
     
-    <rdfs:label xml:lang="en">was created by</rdfs:label>
+    <rdfs:label >was created by</rdfs:label>
     
 	
 	
@@ -3723,7 +3723,7 @@ It represents the act of conceiving the intellectual content of the E28 Conceptu
 	
 	
     
-	<rdfs:label xml:lang="en">has formed</rdfs:label>
+	<rdfs:label >has formed</rdfs:label>
 	
 	
 	
@@ -3738,7 +3738,7 @@ It represents the act of conceiving the intellectual content of the E28 Conceptu
 	
     
     
-    <rdfs:label xml:lang="en">was formed by</rdfs:label>
+    <rdfs:label >was formed by</rdfs:label>
     
 	
 	
@@ -3752,7 +3752,7 @@ It represents the act of conceiving the intellectual content of the E28 Conceptu
 	
     
 	
-	<rdfs:label xml:lang="en">by mother</rdfs:label>
+	<rdfs:label >by mother</rdfs:label>
 	
 	
 	
@@ -3769,7 +3769,7 @@ Note that biological fathers are not necessarily participants in the Birth (see 
 <rdf:Property rdf:about="P96i_gave_birth">
 	
 	
-    <rdfs:label xml:lang="en">gave birth</rdfs:label>
+    <rdfs:label >gave birth</rdfs:label>
     
     
 	
@@ -3783,7 +3783,7 @@ Note that biological fathers are not necessarily participants in the Birth (see 
 <rdf:Property rdf:about="P97_from_father">
 
   
-    <rdfs:label xml:lang="en">from father</rdfs:label>
+    <rdfs:label >from father</rdfs:label>
     
     
 	
@@ -3799,7 +3799,7 @@ A Birth event is normally (but not always) associated with one biological father
 </rdf:Property>
 
 <rdf:Property rdf:about="P97i_was_father_for">
-	<rdfs:label xml:lang="en">was father for</rdfs:label>
+	<rdfs:label >was father for</rdfs:label>
 	
 	
     
@@ -3814,7 +3814,7 @@ A Birth event is normally (but not always) associated with one biological father
 <rdf:Property rdf:about="P98_brought_into_life">
 	
     
-    <rdfs:label xml:lang="en">brought into life</rdfs:label>
+    <rdfs:label >brought into life</rdfs:label>
 	
     
     
@@ -3831,7 +3831,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 	
     
     
-    <rdfs:label xml:lang="en">was born</rdfs:label>
+    <rdfs:label >was born</rdfs:label>
     
 	
 	
@@ -3845,7 +3845,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 	
 	
 	
-	<rdfs:label xml:lang="en">dissolved</rdfs:label>
+	<rdfs:label >dissolved</rdfs:label>
 	
 	
 	
@@ -3862,7 +3862,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 	
 	
 	
-	<rdfs:label xml:lang="en">was dissolved by</rdfs:label>
+	<rdfs:label >was dissolved by</rdfs:label>
 	
 	
 	
@@ -3873,7 +3873,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 </rdf:Property>
 
 <rdf:Property rdf:about="P100_was_death_of">
-	<rdfs:label xml:lang="en">was death of</rdfs:label>
+	<rdfs:label >was death of</rdfs:label>
     
 	
     
@@ -3890,7 +3890,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 <rdf:Property rdf:about="P100i_died_in">
 	
 	
-	<rdfs:label xml:lang="en">died in</rdfs:label>
+	<rdfs:label >died in</rdfs:label>
 	
 	
 	
@@ -3902,7 +3902,7 @@ Twins, triplets etc. are brought into life by the same Birth event. This is not 
 </rdf:Property>
 
 <rdf:Property rdf:about="P101_had_as_general_use">
-	<rdfs:label xml:lang="en">had as general use</rdfs:label>
+	<rdfs:label >had as general use</rdfs:label>
     
     
    
@@ -3919,7 +3919,7 @@ It allows the relationship between particular things, both physical and immateri
 
 <rdf:Property rdf:about="P101i_was_use_of">
 	
-    <rdfs:label xml:lang="en">was use of</rdfs:label>
+    <rdfs:label >was use of</rdfs:label>
 	
 	
    
@@ -3931,7 +3931,7 @@ It allows the relationship between particular things, both physical and immateri
 </rdf:Property>
 
 <rdf:Property rdf:about="P102_has_title">
-	<rdfs:label xml:lang="en">has title</rdfs:label>
+	<rdfs:label >has title</rdfs:label>
     
     
     
@@ -3948,7 +3948,7 @@ It allows any man-made material or immaterial thing to be given a Title. It is p
 </rdf:Property>
 
 <rdf:Property rdf:about="P102i_is_title_of">
-	<rdfs:label xml:lang="en">is title of</rdfs:label>
+	<rdfs:label >is title of</rdfs:label>
     
     
     
@@ -3964,7 +3964,7 @@ It allows any man-made material or immaterial thing to be given a Title. It is p
 
 <rdf:Property rdf:about="P103_was_intended_for">
 	
-    <rdfs:label xml:lang="en">was intended for</rdfs:label>
+    <rdfs:label >was intended for</rdfs:label>
     
     
     
@@ -3979,7 +3979,7 @@ It creates a property between specific man-made things, both physical and immate
 
 <rdf:Property rdf:about="P103i_was_intention_of">
 	
-    <rdfs:label xml:lang="en">was intention of</rdfs:label>
+    <rdfs:label >was intention of</rdfs:label>
     
     
    
@@ -3991,7 +3991,7 @@ It creates a property between specific man-made things, both physical and immate
 
 <rdf:Property rdf:about="P104_is_subject_to">
 	
-    <rdfs:label xml:lang="en">is subject to</rdfs:label>
+    <rdfs:label >is subject to</rdfs:label>
     
     
     
@@ -4010,7 +4010,7 @@ The Right is held by an E39 Actor as described by P75 possesses (is possessed by
    
     
     
-    <rdfs:label xml:lang="en">applies to</rdfs:label>
+    <rdfs:label >applies to</rdfs:label>
 	
 	
 	
@@ -4023,7 +4023,7 @@ The Right is held by an E39 Actor as described by P75 possesses (is possessed by
    
     
     
-    <rdfs:label xml:lang="en">right held by</rdfs:label>
+    <rdfs:label >right held by</rdfs:label>
 	
 	
 
@@ -4038,7 +4038,7 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
 <rdf:Property rdf:about="P105i_has_right_on">
 	
     
-   <rdfs:label xml:lang="en">has right on</rdfs:label>
+   <rdfs:label >has right on</rdfs:label>
    
     
 	
@@ -4051,7 +4051,7 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
 <rdf:Property rdf:about="P106_is_composed_of">
 	
   
-    <rdfs:label xml:lang="en">is composed of</rdfs:label>
+    <rdfs:label >is composed of</rdfs:label>
     
    
    
@@ -4068,7 +4068,7 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
     
    
     
-    <rdfs:label xml:lang="en">forms part of</rdfs:label>
+    <rdfs:label >forms part of</rdfs:label>
 	
 	
 
@@ -4078,7 +4078,7 @@ P105 right held by (has right on) is a shortcut of the fully developed path from
 
 <rdf:Property rdf:about="P107_has_current_or_former_member">
 	
-    <rdfs:label xml:lang="en">has current or former member</rdfs:label>
+    <rdfs:label >has current or former member</rdfs:label>
 	
     
     
@@ -4096,7 +4096,7 @@ The property P107.1 kind of member can be used to specify the type of membership
 
 <rdf:Property rdf:about="P107i_is_current_or_former_member_of">
  
-    <rdfs:label xml:lang="en">is current or former member of</rdfs:label>
+    <rdfs:label >is current or former member of</rdfs:label>
      
      
     
@@ -4112,7 +4112,7 @@ The property P107.1 kind of member can be used to specify the type of membership
     
     
     
-	<rdfs:label xml:lang="en">has produced</rdfs:label>
+	<rdfs:label >has produced</rdfs:label>
 	
 	
 
@@ -4130,7 +4130,7 @@ The identity of an instance of E24 Physical Man-Made Thing is not defined by its
     
     
      
-    <rdfs:label xml:lang="en">was produced by</rdfs:label>
+    <rdfs:label >was produced by</rdfs:label>
 	
 	
 
@@ -4143,7 +4143,7 @@ The identity of an instance of E24 Physical Man-Made Thing is not defined by its
 <rdf:Property rdf:about="P109_has_current_or_former_curator">
 	
     
-    <rdfs:label xml:lang="en">has current or former curator</rdfs:label>
+    <rdfs:label >has current or former curator</rdfs:label>
     
 	
 	
@@ -4163,7 +4163,7 @@ It does not allow a history of curation to be recorded. This would require use o
    
     
     
-    <rdfs:label xml:lang="en">is current or former curator of</rdfs:label>
+    <rdfs:label >is current or former curator of</rdfs:label>
 	
 	
 
@@ -4178,7 +4178,7 @@ It does not allow a history of curation to be recorded. This would require use o
     
     
     
-    <rdfs:label xml:lang="en">augmented</rdfs:label>
+    <rdfs:label >augmented</rdfs:label>
 	
 	
 
@@ -4193,7 +4193,7 @@ Although a Part Addition event normally concerns only one item of Physical Man-M
 
 <rdf:Property rdf:about="P110i_was_augmented_by">
 	
-	<rdfs:label xml:lang="en">was augmented by</rdfs:label>
+	<rdfs:label >was augmented by</rdfs:label>
 	
 	
 	
@@ -4209,7 +4209,7 @@ Although a Part Addition event normally concerns only one item of Physical Man-M
 	
 	
 	
-	<rdfs:label xml:lang="en">added</rdfs:label>
+	<rdfs:label >added</rdfs:label>
 	
 	
 	
@@ -4225,7 +4225,7 @@ Although a Part Addition event normally concerns only one item of Physical Man-M
 <rdf:Property rdf:about="P111i_was_added_by">
 	
 	
-	<rdfs:label xml:lang="en">was added by</rdfs:label>
+	<rdfs:label >was added by</rdfs:label>
 	
 	
 	
@@ -4239,7 +4239,7 @@ Although a Part Addition event normally concerns only one item of Physical Man-M
 
 <rdf:Property rdf:about="P112_diminished">
 	
-	<rdfs:label xml:lang="en">diminished</rdfs:label>
+	<rdfs:label >diminished</rdfs:label>
 	
 	
 	
@@ -4254,7 +4254,7 @@ Although a Part removal activity normally concerns only one item of Physical Man
 </rdf:Property>
 
 <rdf:Property rdf:about="P112i_was_diminished_by">
-	<rdfs:label xml:lang="en">was diminished by</rdfs:label>
+	<rdfs:label >was diminished by</rdfs:label>
 	
 	
 	
@@ -4270,7 +4270,7 @@ Although a Part removal activity normally concerns only one item of Physical Man
 <rdf:Property rdf:about="P113_removed">
 	
 	
-	<rdfs:label xml:lang="en">removed</rdfs:label>
+	<rdfs:label >removed</rdfs:label>
 	
 	
 	
@@ -4285,7 +4285,7 @@ Although a Part removal activity normally concerns only one item of Physical Man
 <rdf:Property rdf:about="P113i_was_removed_by">
 	
     
-    <rdfs:label xml:lang="en">was removed by</rdfs:label>
+    <rdfs:label >was removed by</rdfs:label>
 	
     
 	
@@ -4301,7 +4301,7 @@ Although a Part removal activity normally concerns only one item of Physical Man
 	
 	
 	
-    <rdfs:label xml:lang="en">is equal in time to</rdfs:label>
+    <rdfs:label >is equal in time to</rdfs:label>
 	
 	
 
@@ -4314,7 +4314,7 @@ This property is the same as the "equal" relationship of Allen’s temporal logi
 </rdf:Property>
 
 <rdf:Property rdf:about="P115_finishes">
-	<rdfs:label xml:lang="en">finishes</rdfs:label>
+	<rdfs:label >finishes</rdfs:label>
 	
 	
 	
@@ -4333,7 +4333,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 	
 	
 	
-	<rdfs:label xml:lang="en">is finished by</rdfs:label>
+	<rdfs:label >is finished by</rdfs:label>
 	
 	
 
@@ -4343,7 +4343,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 
 <rdf:Property rdf:about="P116_starts">
 	
-	<rdfs:label xml:lang="en">starts</rdfs:label>
+	<rdfs:label >starts</rdfs:label>
 	
 	
 	
@@ -4361,7 +4361,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 	
 	
 	
-	<rdfs:label xml:lang="en">is started by</rdfs:label>
+	<rdfs:label >is started by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E2_Temporal_Entity"/>
@@ -4372,7 +4372,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 	
 	
 	
-	<rdfs:label xml:lang="en">occurs during</rdfs:label>
+	<rdfs:label >occurs during</rdfs:label>
 	
 	
 	
@@ -4387,7 +4387,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 	
 	
 	
-	<rdfs:label xml:lang="en">includes</rdfs:label>
+	<rdfs:label >includes</rdfs:label>
 	
 	
 	
@@ -4396,7 +4396,7 @@ This property is only necessary if the time span is unknown (otherwise the relat
 </rdf:Property>
 
 <rdf:Property rdf:about="P118_overlaps_in_time_with">
-	<rdfs:label xml:lang="en">overlaps in time with</rdfs:label>
+	<rdfs:label >overlaps in time with</rdfs:label>
 	
 	
 	
@@ -4415,7 +4415,7 @@ This property is the same as the "overlaps / overlapped-by" relationships of All
 	
 	
 	
-	<rdfs:label xml:lang="en">is overlapped in time by</rdfs:label>
+	<rdfs:label >is overlapped in time by</rdfs:label>
 	
 	
 	
@@ -4424,7 +4424,7 @@ This property is the same as the "overlaps / overlapped-by" relationships of All
 </rdf:Property>
 
 <rdf:Property rdf:about="P119_meets_in_time_with">
-	<rdfs:label xml:lang="en">meets in time with</rdfs:label>
+	<rdfs:label >meets in time with</rdfs:label>
 	
 	
 	
@@ -4442,7 +4442,7 @@ This property is the same as the "meets / met-by" relationships of Allen’s tem
 <rdf:Property rdf:about="P119i_is_met_in_time_by">
 	
 	
-	<rdfs:label xml:lang="en">is met in time by</rdfs:label>
+	<rdfs:label >is met in time by</rdfs:label>
 	
 	
 	
@@ -4455,7 +4455,7 @@ This property is the same as the "meets / met-by" relationships of Allen’s tem
 	
 	
 	
-	<rdfs:label xml:lang="en">occurs before</rdfs:label>
+	<rdfs:label >occurs before</rdfs:label>
 	
 	
 	
@@ -4472,7 +4472,7 @@ This property is the same as the "before / after" relationships of Allen’s tem
 	
 	
 	
-	<rdfs:label xml:lang="en">occurs after</rdfs:label>
+	<rdfs:label >occurs after</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E2_Temporal_Entity"/>
@@ -4484,7 +4484,7 @@ This property is the same as the "before / after" relationships of Allen’s tem
 	
 	
 	
-	<rdfs:label xml:lang="en">overlaps with</rdfs:label>
+	<rdfs:label >overlaps with</rdfs:label>
 	
 	
 	<rdfs:comment>This symmetric property allows the instances of E53 Place with overlapping geometric extents to be associated with each other. 
@@ -4496,7 +4496,7 @@ It does not specify anything about the shared area. This property is purely spat
 
 <rdf:Property rdf:about="P122_borders_with">
 	
-	<rdfs:label xml:lang="en">borders with</rdfs:label>
+	<rdfs:label >borders with</rdfs:label>
 	
 	
 	
@@ -4514,7 +4514,7 @@ This property is purely spatial, in contrast to Allen operators, which are purel
 	
 	
 	
-	<rdfs:label xml:lang="en">resulted in</rdfs:label>
+	<rdfs:label >resulted in</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the E77 Persistent Item or items that are the result of an E81 Transformation. 
@@ -4530,7 +4530,7 @@ New items replace the transformed item or items, which cease to exist as units o
 	
 	
 	
-	<rdfs:label xml:lang="en">resulted from</rdfs:label>
+	<rdfs:label >resulted from</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E77_Persistent_Item"/>
@@ -4539,7 +4539,7 @@ New items replace the transformed item or items, which cease to exist as units o
 </rdf:Property>
 
 <rdf:Property rdf:about="P124_transformed">
-	<rdfs:label xml:lang="en">transformed</rdfs:label>
+	<rdfs:label >transformed</rdfs:label>
 	
 	
 	
@@ -4558,7 +4558,7 @@ It is replaced by the result of the Transformation, which becomes a new unit of 
 	
 	
 	
-	<rdfs:label xml:lang="en">was transformed by</rdfs:label>
+	<rdfs:label >was transformed by</rdfs:label>
 	
 	
 	
@@ -4569,7 +4569,7 @@ It is replaced by the result of the Transformation, which becomes a new unit of 
 </rdf:Property>
 
 <rdf:Property rdf:about="P125_used_object_of_type">
-<rdfs:label xml:lang="en">used object of type</rdfs:label>
+<rdfs:label >used object of type</rdfs:label>
 	
 	
 	
@@ -4584,7 +4584,7 @@ It is replaced by the result of the Transformation, which becomes a new unit of 
 
 <rdf:Property rdf:about="P125i_was_type_of_object_used_in">
 	
-	<rdfs:label xml:lang="en">was type of object used in</rdfs:label>
+	<rdfs:label >was type of object used in</rdfs:label>
 	
 	
 	
@@ -4597,7 +4597,7 @@ It is replaced by the result of the Transformation, which becomes a new unit of 
 <rdf:Property rdf:about="P126_employed">
 	
 	
-	<rdfs:label xml:lang="en">employed</rdfs:label>
+	<rdfs:label >employed</rdfs:label>
 	
 	
 	
@@ -4610,7 +4610,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 </rdf:Property>
 
 <rdf:Property rdf:about="P126i_was_employed_in">
-	<rdfs:label xml:lang="en">was employed in</rdfs:label>
+	<rdfs:label >was employed in</rdfs:label>
 	
 	
 	
@@ -4625,7 +4625,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 	
 	
 	
-	<rdfs:label xml:lang="en">has broader term</rdfs:label>
+	<rdfs:label >has broader term</rdfs:label>
 	
 	
 	
@@ -4639,7 +4639,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 <rdf:Property rdf:about="P127i_has_narrower_term">
 	
 	
-	<rdfs:label xml:lang="en">has narrower term</rdfs:label>
+	<rdfs:label >has narrower term</rdfs:label>
 	
 	 
 	
@@ -4648,7 +4648,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 </rdf:Property>
 
 <rdf:Property rdf:about="P128_carries">
-	<rdfs:label xml:lang="en">carries</rdfs:label>
+	<rdfs:label >carries</rdfs:label>
 	
 	
 	
@@ -4664,7 +4664,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 
 <rdf:Property rdf:about="P128i_is_carried_by">
 	
-	<rdfs:label xml:lang="en">is carried by</rdfs:label>
+	<rdfs:label >is carried by</rdfs:label>
 	
 	
 	
@@ -4677,7 +4677,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 
 <rdf:Property rdf:about="P129_is_about">
 	
-	<rdfs:label xml:lang="en">is about</rdfs:label>
+	<rdfs:label >is about</rdfs:label>
 	
 	
     
@@ -4695,7 +4695,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 	
 	
 	
-	<rdfs:label xml:lang="en">is subject of</rdfs:label>
+	<rdfs:label >is subject of</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E1_CRM_Entity"/>
@@ -4705,7 +4705,7 @@ The E57 Material used during the E11 Modification does not necessarily become in
 
 <rdf:Property rdf:about="P130_shows_features_of">
 	
-	<rdfs:label xml:lang="en">shows features of</rdfs:label>
+	<rdfs:label >shows features of</rdfs:label>
 	
 	
 	
@@ -4728,7 +4728,7 @@ between two objects only, without historical knowledge about its reasons.
 	
 	
 	
-	<rdfs:label xml:lang="en">features are also found on</rdfs:label>
+	<rdfs:label >features are also found on</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E70_Thing"/>
@@ -4738,7 +4738,7 @@ between two objects only, without historical knowledge about its reasons.
 <rdf:Property rdf:about="P131_is_identified_by">
 	
 	
-	<rdfs:label xml:lang="en">is identified by</rdfs:label>
+	<rdfs:label >is identified by</rdfs:label>
 	
 	
 	
@@ -4753,7 +4753,7 @@ This property is a specialisation of P1 is identified by (identifies) is identif
 
 <rdf:Property rdf:about="P131i_identifies">
 	
-	<rdfs:label xml:lang="en">identifies</rdfs:label>
+	<rdfs:label >identifies</rdfs:label>
 	
 	
 	
@@ -4769,7 +4769,7 @@ This property is a specialisation of P1 is identified by (identifies) is identif
 	
 	
 	
-	<rdfs:label xml:lang="en">overlaps with</rdfs:label>
+	<rdfs:label >overlaps with</rdfs:label>
 	
 	
 	<rdfs:comment>This symmetric property associates two instances of E92 Spacetime Volume that have some of their
@@ -4781,7 +4781,7 @@ extent in common.
 
 <rdf:Property rdf:about="P133_is_separated_from">
 	
-	<rdfs:label xml:lang="en">is separated from</rdfs:label>
+	<rdfs:label >is separated from</rdfs:label>
 	
 	
 	
@@ -4799,7 +4799,7 @@ common.
 	
 	
 	
-	<rdfs:label xml:lang="en">continued</rdfs:label>
+	<rdfs:label >continued</rdfs:label>
 	
 	
 	<rdfs:comment>This property associates two instances of E7 Activity, where the domain is considered as an intentional continuation of the range. A continuation of an activity may happen when the continued activity is still ongoing or after the continued activity has completely ended. The continuing activity may have started already before it decided to continue the other one. Continuation implies a coherence of intentions and outcomes of the involved activities.
@@ -4813,7 +4813,7 @@ common.
 	
 	
 	
-	<rdfs:label xml:lang="en">was continued by</rdfs:label>
+	<rdfs:label >was continued by</rdfs:label>
 	
 	
 	
@@ -4823,7 +4823,7 @@ common.
 </rdf:Property>
 
 <rdf:Property rdf:about="P135_created_type">
-	<rdfs:label xml:lang="en">created type</rdfs:label>
+	<rdfs:label >created type</rdfs:label>
 	
 	
 	
@@ -4837,7 +4837,7 @@ common.
 </rdf:Property>
 
 <rdf:Property rdf:about="P135i_was_created_by">
-	<rdfs:label xml:lang="en">was created by</rdfs:label>
+	<rdfs:label >was created by</rdfs:label>
 	
 	
 	
@@ -4854,7 +4854,7 @@ common.
 	
 	
 	
-	<rdfs:label xml:lang="en">was based on</rdfs:label>
+	<rdfs:label >was based on</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies one or more items that were used as evidence to declare a new E55 Type.
@@ -4866,7 +4866,7 @@ The examination of these items is often the only objective way to understand the
 </rdf:Property>
 
 <rdf:Property rdf:about="P136i_supported_type_creation">
-	<rdfs:label xml:lang="en">supported type creation</rdfs:label>
+	<rdfs:label >supported type creation</rdfs:label>
 	
 	
 	
@@ -4879,7 +4879,7 @@ The examination of these items is often the only objective way to understand the
 </rdf:Property>
 
 <rdf:Property rdf:about="P137_exemplifies">
-	<rdfs:label xml:lang="en">exemplifies</rdfs:label>
+	<rdfs:label >exemplifies</rdfs:label>
 	
     
     
@@ -4897,7 +4897,7 @@ The examination of these items is often the only objective way to understand the
 <rdf:Property rdf:about="P137i_is_exemplified_by">
 	
 	
-	<rdfs:label xml:lang="en">is exemplified by</rdfs:label>
+	<rdfs:label >is exemplified by</rdfs:label>
 	
 	
 	
@@ -4909,7 +4909,7 @@ The examination of these items is often the only objective way to understand the
 
 <rdf:Property rdf:about="P138_represents">
 	
-	<rdfs:label xml:lang="en">represents</rdfs:label>
+	<rdfs:label >represents</rdfs:label>
 	
 	
 	
@@ -4925,7 +4925,7 @@ This property is also used for the relationship between an original and a digiti
 </rdf:Property>
 
 <rdf:Property rdf:about="P138i_has_representation">
-	<rdfs:label xml:lang="en">has representation</rdfs:label>
+	<rdfs:label >has representation</rdfs:label>
 	
 	
 	
@@ -4940,7 +4940,7 @@ This property is also used for the relationship between an original and a digiti
 <rdf:Property rdf:about="P139_has_alternative_form">
 	
 	
-	<rdfs:label xml:lang="en">has alternative form</rdfs:label>
+	<rdfs:label >has alternative form</rdfs:label>
 	
 	
 	
@@ -4956,7 +4956,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 <rdf:Property rdf:about="P140_assigned_attribute_to">
 	
 	
-   <rdfs:label xml:lang="en">assigned attribute to</rdfs:label>
+   <rdfs:label >assigned attribute to</rdfs:label>
 	
 	
 	
@@ -4967,7 +4967,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P140i_was_attributed_by">
-	<rdfs:label xml:lang="en">was attributed by</rdfs:label>
+	<rdfs:label >was attributed by</rdfs:label>
 	
 	
 	  
@@ -4979,7 +4979,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P141_assigned">
-	<rdfs:label xml:lang="en">assigned</rdfs:label>
+	<rdfs:label >assigned</rdfs:label>
 	
    
 	
@@ -4996,7 +4996,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 	
 	
 	
-	<rdfs:label xml:lang="en">was assigned by</rdfs:label>
+	<rdfs:label >was assigned by</rdfs:label>
 	
 	
 	
@@ -5005,7 +5005,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P142_used_constituent">
-	<rdfs:label xml:lang="en">used constituent</rdfs:label>
+	<rdfs:label >used constituent</rdfs:label>
 	
 	
 	<rdfs:comment>This property associates the event of assigning an instance of E42 Identifier to an entity, with  the instances of E41 Appellation that were used as elements of the identifier.
@@ -5017,7 +5017,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 
 <rdf:Property rdf:about="P142i_was_used_in">
 	
-	<rdfs:label xml:lang="en">was used in</rdfs:label>
+	<rdfs:label >was used in</rdfs:label>
 	
 	<rdfs:domain rdf:resource="E90_Symbolic_Object"/>
 	<rdfs:range rdf:resource="E15_Identifier_Assignment"/>
@@ -5025,7 +5025,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P143_joined">
-	<rdfs:label xml:lang="en">joined</rdfs:label>
+	<rdfs:label >joined</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the instance of E39 Actor that becomes member of a E74 Group in an E85 Joining.
@@ -5037,7 +5037,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P143i_was_joined_by">
-	<rdfs:label xml:lang="en">was joined by</rdfs:label>
+	<rdfs:label >was joined by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E39_Actor"/>
@@ -5046,7 +5046,7 @@ P139.1 has type allows the type of derivation, such as “transliteration from L
 </rdf:Property>
 
 <rdf:Property rdf:about="P144_joined_with">
-	<rdfs:label xml:lang="en">joined with</rdfs:label>
+	<rdfs:label >joined with</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the instance of E74 Group of which an instance of E39 Actor becomes a member through an instance of E85 Joining.
@@ -5060,7 +5060,7 @@ The property P144.1 kind of member can be used to specify the type of membership
 </rdf:Property>
 
 <rdf:Property rdf:about="P144i_gained_member_by">
-	<rdfs:label xml:lang="en">gained member by</rdfs:label>
+	<rdfs:label >gained member by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E74_Group"/>
@@ -5069,7 +5069,7 @@ The property P144.1 kind of member can be used to specify the type of membership
 </rdf:Property>
 
 <rdf:Property rdf:about="P145_separated">
-	<rdfs:label xml:lang="en">separated</rdfs:label>
+	<rdfs:label >separated</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the instance of E39 Actor that leaves an instance of E74 Group through an instance of E86 Leaving.</rdfs:comment>
@@ -5079,7 +5079,7 @@ The property P144.1 kind of member can be used to specify the type of membership
 </rdf:Property>
 
 <rdf:Property rdf:about="P145i_left_by">
-	<rdfs:label xml:lang="en">left by</rdfs:label>
+	<rdfs:label >left by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E39_Actor"/>
@@ -5088,7 +5088,7 @@ The property P144.1 kind of member can be used to specify the type of membership
 </rdf:Property>
 
 <rdf:Property rdf:about="P146_separated_from">
-	<rdfs:label xml:lang="en">separated from</rdfs:label>
+	<rdfs:label >separated from</rdfs:label>
 	
 	
 	<rdfs:comment>This property identifies the instance of E74 Group an instance of E39 Actor leaves through an instance of E86 Leaving.
@@ -5100,7 +5100,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P146i_lost_member_by">
-	<rdfs:label xml:lang="en">lost member by</rdfs:label>
+	<rdfs:label >lost member by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E74_Group"/>
@@ -5109,7 +5109,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P147_curated">
-	<rdfs:label xml:lang="en">curated</rdfs:label>
+	<rdfs:label >curated</rdfs:label>
 	
 	
 	<rdfs:comment>This property associates an instance of E87 Curation Activity with the instance of E78 Collection that is subject of that  curation activity.
@@ -5119,7 +5119,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P147i_was_curated_by">
-	<rdfs:label xml:lang="en">was curated by</rdfs:label>
+	<rdfs:label >was curated by</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E78_Collection"/>
@@ -5127,7 +5127,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P148_has_component">
-	<rdfs:label xml:lang="en">has component</rdfs:label>
+	<rdfs:label >has component</rdfs:label>
 	
 	
 	<rdfs:comment>This property associates an instance of E89 Propositional Object with a structural part of it that is by itself an instance of E89 Propositional Object.</rdfs:comment>
@@ -5136,7 +5136,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P148i_is_component_of">
-	<rdfs:label xml:lang="en">is component of</rdfs:label>
+	<rdfs:label >is component of</rdfs:label>
 	
 	
 	<rdfs:domain rdf:resource="E89_Propositional_Object"/>
@@ -5144,7 +5144,7 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P149_is_identified_by">
-	<rdfs:label xml:lang="en">is identified by</rdfs:label>
+	<rdfs:label >is identified by</rdfs:label>
 	<rdfs:comment>This property identifies an instance of E28 Conceptual Object using an instance of E75 Conceptual Object Appellation.</rdfs:comment>
 	<rdfs:domain rdf:resource="E28_Conceptual_Object"/>
 	<rdfs:range rdf:resource="E75_Conceptual_Object_Appellation"/>
@@ -5152,14 +5152,14 @@ Although a Leaving activity normally concerns only one instance of E74 Group, it
 </rdf:Property>
 
 <rdf:Property rdf:about="P149i_identifies">
-	<rdfs:label xml:lang="en">identifies</rdfs:label>
+	<rdfs:label >identifies</rdfs:label>
 	<rdfs:domain rdf:resource="E75_Conceptual_Object_Appellation"/>
 	<rdfs:range rdf:resource="E28_Conceptual_Object"/>
 	<rdfs:subPropertyOf rdf:resource="P1i_identifies"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P150_defines_typical_parts_of">
-	<rdfs:label xml:lang="en">defines typical parts of</rdfs:label>
+	<rdfs:label >defines typical parts of</rdfs:label>
 	<rdfs:comment>This property associates an instance of E55 Type “A” with an instance of E55 Type “B”, when items
 of type “A” typically form part of items of type “B”, such as “car motors” and “cars”.
 It allows types to be organised into hierarchies based on one type describing a typical part of another.
@@ -5171,13 +5171,13 @@ This property is equivalent to "broader term partitive (BTP)" as defined in ISO 
 </rdf:Property>
 
 <rdf:Property rdf:about="P150i_defines_typical_wholes_for">
-	<rdfs:label xml:lang="en">defines typical wholes for</rdfs:label>
+	<rdfs:label >defines typical wholes for</rdfs:label>
 	<rdfs:domain rdf:resource="E55_Type"/>
 	<rdfs:range rdf:resource="E55_Type"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P151_was_formed_from">
-	<rdfs:label xml:lang="en">was formed from</rdfs:label>
+	<rdfs:label >was formed from</rdfs:label>
 	<rdfs:comment>This property associates an instance of E66 Formation with an instance of E74 Group from which the new group was formed preserving a sense of continuity such as in mission, membership or tradition.
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E66_Formation"/>
@@ -5186,14 +5186,14 @@ This property is equivalent to "broader term partitive (BTP)" as defined in ISO 
 </rdf:Property>
 
 <rdf:Property rdf:about="P151i_participated_in">
-	<rdfs:label xml:lang="en">participated in</rdfs:label>
+	<rdfs:label >participated in</rdfs:label>
 	<rdfs:domain rdf:resource="E74_Group"/>
 	<rdfs:range rdf:resource="E66_Formation"/>
 	<rdfs:subPropertyOf rdf:resource="P11i_participated_in"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P152_has_parent">
-	<rdfs:label xml:lang="en">has parent</rdfs:label>
+	<rdfs:label >has parent</rdfs:label>
 	<rdfs:comment>This property associates an instance of E21 Person with another instance of E21 Person who plays the role of the first instance’s parent, regardless of whether the relationship is biological parenthood, assumed or pretended biological parenthood or an equivalent legal status of rights and obligations obtained by a social or legal act. 
 	This property is, among others, a shortcut of the fully developed paths from ‘E21Person’ through ‘P98i was born’, ‘E67 Birth’, ‘P96 by mother’ to ‘E21 Person’, and from ‘E21Person’ through ‘P98i was born’, ‘E67 Birth’, ‘P97 from father’ to ‘E21 Person’.
 	</rdfs:comment>
@@ -5202,13 +5202,13 @@ This property is equivalent to "broader term partitive (BTP)" as defined in ISO 
 </rdf:Property>
 
 <rdf:Property rdf:about="P152i_is_parent_of">
-	<rdfs:label xml:lang="en">is parent of</rdfs:label>
+	<rdfs:label >is parent of</rdfs:label>
 	<rdfs:domain rdf:resource="E21_Person"/>
 	<rdfs:range rdf:resource="E21_Person"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P156_occupies">
-	<rdfs:label xml:lang="en">occupies</rdfs:label>
+	<rdfs:label >occupies</rdfs:label>
 	<rdfs:comment>This property describes the largest volume in space that an instance of E18 Physical Thing has occupied at any time during its existence, with respect to the reference space relative to itself. This allows you to describe the thing itself as a place that may contain other things, such as a box that may contain coins. In other words, it is the volume that contains all the points which the thing has covered at some time during its existence. In the case of an E26 Physical Feature the default reference space is the one in which the object that bears the feature or at least the surrounding matter of the feature is at rest. In this case there is a 1:1 relation of E26 Feature and E53 Place. For simplicity of implementation multiple inheritance (E26 Feature IsA E53 Place) may be a practical approach.
 
 For instances of E19 Physical Objects the default reference space is the one which is at rest to the object itself, i.e. which moves together with the object. We include in the occupied space the space filled by the matter of the physical thing and all its inner spaces. 
@@ -5223,14 +5223,14 @@ In contrast to P156  occupies, the property P53 has former or current location i
 </rdf:Property>
 
 <rdf:Property rdf:about="P156i_is_occupied_by">
-	<rdfs:label xml:lang="en">is occupied by</rdfs:label>
+	<rdfs:label >is occupied by</rdfs:label>
 	<rdfs:domain rdf:resource="E53_Place"/>
 	<rdfs:range rdf:resource="E18_Physical_Thing"/>
 	<rdfs:subPropertyOf rdf:resource="P161i_is_spatial_projection_of"/>	
 </rdf:Property>
 
 <rdf:Property rdf:about="P157_is_at_rest_relative_to">
-	<rdfs:label xml:lang="en">is at rest relative to</rdfs:label>
+	<rdfs:label >is at rest relative to</rdfs:label>
 	<rdfs:comment>This property associates an instance of P53 Place with the instance of E18 Physical Thing that determines a reference space for this instance of P53 Place by being at rest with respect to this reference space. The relative stability of form of an E18 Physical Thing defines its default reference space. The reference space is not spatially limited to the referred thing. For example, a ship determines a reference space in terms of which other ships in its neighbourhood may be described. Larger constellations of matter, such as continental plates, may comprise many physical features that are at rest with them and define the same reference space.
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E53_Place"/>
@@ -5239,7 +5239,7 @@ In contrast to P156  occupies, the property P53 has former or current location i
 </rdf:Property>
 
 <rdf:Property rdf:about="P157i_provides_reference_space_for">
-	<rdfs:label xml:lang="en">provides reference space for</rdfs:label>
+	<rdfs:label >provides reference space for</rdfs:label>
 	<rdfs:domain rdf:resource="E18_Physical_Thing"/>
 	<rdfs:range rdf:resource="E53_Place"/>
 	<rdfs:subPropertyOf rdf:resource="P59_has_section"/>
@@ -5247,7 +5247,7 @@ In contrast to P156  occupies, the property P53 has former or current location i
 
 
 <rdf:Property rdf:about="P160_has_temporal_projection">
-	<rdfs:label xml:lang="en">has temporal projection</rdfs:label>
+	<rdfs:label >has temporal projection</rdfs:label>
 	<rdfs:comment>This property describes the temporal projection of an instance of an E92 Spacetime Volume. The property P4 has time-span is the same as P160 has temporal projection if it is used to document an instance of E4 Period or any subclass of it. 
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
@@ -5255,12 +5255,12 @@ In contrast to P156  occupies, the property P53 has former or current location i
 </rdf:Property>
 
 <rdf:Property rdf:about="P160i_is_temporal_projection_of">
-	<rdfs:label xml:lang="en">is temporal projection of</rdfs:label>
+	<rdfs:label >is temporal projection of</rdfs:label>
 	<rdfs:domain rdf:resource="E52_Time-Span"/>
 	<rdfs:range rdf:resource="E92_Spacetime_Volume"/>
 </rdf:Property>
 <rdf:Property rdf:about="P161_has_spatial_projection">
-	<rdfs:label xml:lang="en">has spatial projection</rdfs:label>
+	<rdfs:label >has spatial projection</rdfs:label>
 	<rdfs:comment>This property associates an instance of a E92 Spacetime Volume with an instance of E53 Place that is the result of the spatial projection of the instance of a E92 Spacetime Volume on a reference space. In general there can be more than one useful reference space to describe the spatial projection of a spacetime volume, such as that of a battle ship versus that of the seafloor. Therefore the projection is not unique.
 This is part of the fully developed path that is shortcut by P7took place at (witnessed).The more fully developed path from E4 Period through P161 has spatial projection, E53 Place, P89 falls within (contains) to E53 Place. 
 	</rdfs:comment>
@@ -5269,12 +5269,12 @@ This is part of the fully developed path that is shortcut by P7took place at (wi
 </rdf:Property>
 
 <rdf:Property rdf:about="P161i_is_spatial_projection_of">
-	<rdfs:label xml:lang="en">is spatial projection of</rdfs:label>
+	<rdfs:label >is spatial projection of</rdfs:label>
 	<rdfs:domain rdf:resource="E53_Place"/>
 	<rdfs:range rdf:resource="E92_Spacetime_Volume"/>
 </rdf:Property>
 <rdf:Property rdf:about="P164_during">
-	<rdfs:label xml:lang="en">during</rdfs:label>
+	<rdfs:label >during</rdfs:label>
 	<rdfs:comment>This property relates an instance of E93 Presence with an arbitrary instance of E52 Time-Span that
 defines the section of the spacetime volume that this instance of E93 Presence is related to by the property P166 was a presence of (had presence).
 	</rdfs:comment>
@@ -5284,14 +5284,14 @@ defines the section of the spacetime volume that this instance of E93 Presence i
 </rdf:Property>
 
 <rdf:Property rdf:about="P164i_was_time-span_of">
-	<rdfs:label xml:lang="en">was time-span of</rdfs:label>
+	<rdfs:label >was time-span of</rdfs:label>
 	<rdfs:domain rdf:resource="E52_Time-Span"/>
 	<rdfs:range rdf:resource="E93_Presence"/>
 	<rdfs:subPropertyOf rdf:resource="P160i_is_temporal_projection_of"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P165_incorporates">
-	<rdfs:label xml:lang="en">incorporates</rdfs:label>
+	<rdfs:label >incorporates</rdfs:label>
 	<rdfs:comment>This property associates an instance of E73 Information Object with an instance of E90 Symbolic Object (or any of its subclasses) that was included in it.
 This property makes it possible to recognise the autonomous status of the incorporated signs, which were created in a distinct context, and can be incorporated in many distinct self-contained expressions, and to highlight the difference between structural and accidental whole-part relationships between conceptual entities.
 It accounts for many cultural facts that are quite frequent and significant: the inclusion of a poem in an anthology, the re-use of an operatic aria in a new opera, the use of a reproduction of a painting for a book cover or a CD booklet, the integration of textual quotations, the presence of lyrics in a song that sets those lyrics to music, the presence of the text of a play in a movie based on that play, etc.
@@ -5304,14 +5304,14 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P165i_is_incorporated_in">
-	<rdfs:label xml:lang="en">is incorporated in</rdfs:label>
+	<rdfs:label >is incorporated in</rdfs:label>
 	<rdfs:domain rdf:resource="E90_Symbolic_Object"/>
 	<rdfs:range rdf:resource="E73_Information_Object"/>
 	<rdfs:subPropertyOf rdf:resource="P106i_forms_part_of"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P166_was_a_presence_of">
-	<rdfs:label xml:lang="en">was a presence of</rdfs:label>
+	<rdfs:label >was a presence of</rdfs:label>
 	<rdfs:comment>This property relates an E93 Presence with the STV it is part of… 
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E93_Presence"/>
@@ -5319,13 +5319,13 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P166i_had_presence">
-	<rdfs:label xml:lang="en">had presence</rdfs:label>
+	<rdfs:label >had presence</rdfs:label>
 	<rdfs:domain rdf:resource="E92_Spacetime_Volume"/>
 	<rdfs:range rdf:resource="E93_Presence"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P167_at">
-	<rdfs:label xml:lang="en">at</rdfs:label>
+	<rdfs:label >at</rdfs:label>
 	<rdfs:comment>This property points to a wider area in which my thing /event was… 
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E93_Presence"/>
@@ -5333,13 +5333,13 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P167i_was_place_of">
-	<rdfs:label xml:lang="en">was place of</rdfs:label>
+	<rdfs:label >was place of</rdfs:label>
 	<rdfs:domain rdf:resource="E53_Place"/>
 	<rdfs:range rdf:resource="E93_Presence"/>
 </rdf:Property>
 
 <rdf:Property rdf:about="P168_place_is_defined_by">
-	<rdfs:label xml:lang="en">place is defined by </rdfs:label>
+	<rdfs:label >place is defined by </rdfs:label>
 	<rdfs:comment>This property associates an instance of E53 Place with an instance of E94 Space Primitive that defines it. Syntactic variants or use of different scripts may result in multiple instances of E94 Space Primitive defining exactly the same place. Transformations between different reference systems in general result in new definitions of places approximating each other and not in alternative definitions. Note that it is possible for a place to be defined by phenomena causal to it or other forms of identification rather than by an instance of E94 Space Primitive. In this case, this property must not be used for approximating the respective instance of E53 Place with an instance of E94 Space Primitive. 
 	</rdfs:comment>
 	<rdfs:domain rdf:resource="E53_Place"/>
@@ -5348,7 +5348,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 
 
 <rdf:Property rdf:about="P81a_end_of_the_begin">
-	<rdfs:label xml:lang="en">end of the begin</rdfs:label>
+	<rdfs:label >end of the begin</rdfs:label>
 	
 	
 	
@@ -5361,7 +5361,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P81b_begin_of_the_end">
-	<rdfs:label xml:lang="en">begin of the end</rdfs:label>
+	<rdfs:label >begin of the end</rdfs:label>
 	
 	
 	
@@ -5374,7 +5374,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P82a_begin_of_the_begin">
-	<rdfs:label xml:lang="en">begin of the begin</rdfs:label>
+	<rdfs:label >begin of the begin</rdfs:label>
 	
 	
 	
@@ -5387,7 +5387,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="P82b_end_of_the_end">
-	<rdfs:label xml:lang="en">end of the end</rdfs:label>
+	<rdfs:label >end of the end</rdfs:label>
 	
 	
 	
@@ -5400,7 +5400,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="TXP1_Used_Writing_System">
-	<rdfs:label xml:lang="en">Used Writing System</rdfs:label>
+	<rdfs:label >Used Writing System</rdfs:label>
 	<rdfs:comment></rdfs:comment>
 	<rdfs:domain rdf:resource="TX2_Writing"/>
 	<rdfs:range rdf:resource="TX3_Writing_System"/>
@@ -5408,7 +5408,7 @@ A digital photograph of a manuscript page incorporates the text of the manuscrip
 </rdf:Property>
 
 <rdf:Property rdf:about="TXP4_composes">
-	<rdfs:label xml:lang="en">Composes</rdfs:label>
+	<rdfs:label >Composes</rdfs:label>
 	<rdfs:comment>This property is intended to correlate a text and the different parts of which it can be
 composed, such as: letters, words, lines or any other scan can be made by scholars
 because considered to have a particular relevance for the investigation of the text itself</rdfs:comment>
@@ -5418,7 +5418,7 @@ because considered to have a particular relevance for the investigation of the t
 </rdf:Property>
 
 <rdf:Property rdf:about="MTP1_Also_Occurs_In">
-	<rdfs:label xml:lang="en">Coocurrence</rdfs:label>
+	<rdfs:label >Coocurrence</rdfs:label>
 	<rdfs:comment> This property is used to link two words in different textual entities to one another.</rdfs:comment>
 	<rdfs:domain rdf:resource="MTX3_Word_On_Page"/>
 	<rdfs:range rdf:resource="MTX3_Word_On_Page"/>
