@@ -53,7 +53,7 @@ P81 has its time interval redefined by P81a and P81b. Similarly, we redefine P82
 
 <rdfs:Class rdf:about="E1_CRM_Entity">
 	
-	<rdfs:label >CRM Entity</rdfs:label>
+	<rdfs:label>CRM Entity</rdfs:label>
 	
 	
 	
@@ -988,7 +988,7 @@ If a person is killed, their death should be instantiated as E69 Death and as E7
 </rdfs:Class>
 
 <rdfs:Class rdf:about="E70_Thing">
-<rdfs:label xml:lang="ru"/>    
+    
    
     <rdfs:label >Thing</rdfs:label>
     
@@ -3488,9 +3488,6 @@ It allows an E52 Time-Span to be associated with an E54 Dimension representing i
    
     <rdfs:label >was maximum duration of</rdfs:label>
     
-    
-	
-	<rdfs:label xml:lang="zh"/>
 
 	<rdfs:domain rdf:resource="E54_Dimension"/>
 	<rdfs:range rdf:resource="E52_Time-Span"/>
